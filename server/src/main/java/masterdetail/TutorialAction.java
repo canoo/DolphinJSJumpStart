@@ -19,7 +19,7 @@ import java.util.concurrent.TimeUnit;
 
 public class TutorialAction extends DolphinServerAction {
 
-    private static EventBus eventBus = new EventBus();
+    private static final EventBus eventBus = new EventBus();
 
     private final DataflowQueue<DTO> valueQueue;
 
@@ -77,23 +77,25 @@ public class TutorialAction extends DolphinServerAction {
                 System.err.println(command);
 
                 final ServerPresentationModel presentationModel = getServerDolphin().getAt("weatherMold");
-                ValueChangedCommand valueChangedCommand = (ValueChangedCommand) command;
-                final ServerAttribute locationAttr = presentationModel.getAt("location");
-                final ServerAttribute temperatureAttr = presentationModel.getAt("temperature");
+                if (presentationModel != null) {
+                    ValueChangedCommand valueChangedCommand = (ValueChangedCommand) command;
+                    final ServerAttribute locationAttr = presentationModel.getAt("location");
+                    final ServerAttribute temperatureAttr = presentationModel.getAt("temperature");
 
-                ServerAttribute matchingAttr = null;
-                if (valueChangedCommand.getAttributeId() == locationAttr.getId()) {
-                    matchingAttr = locationAttr;
-                }
-                if (valueChangedCommand.getAttributeId() == temperatureAttr.getId()) {
-                    matchingAttr = temperatureAttr;
-                }
+                    ServerAttribute matchingAttr = null;
+                    if (valueChangedCommand.getAttributeId() == locationAttr.getId()) {
+                        matchingAttr = locationAttr;
+                    }
+                    if (valueChangedCommand.getAttributeId() == temperatureAttr.getId()) {
+                        matchingAttr = temperatureAttr;
+                    }
 
-                if (matchingAttr != null) {
-                    System.err.println("publishing value change: "+matchingAttr.getQualifier());
-                    eventBus.publish(valueQueue, new DTO(
-                            new Slot("valueChange", matchingAttr.getValue(), matchingAttr.getQualifier())
-                    ));
+                    if (matchingAttr != null) {
+                        System.err.println("publishing value change: "+matchingAttr.getQualifier());
+                        eventBus.publish(valueQueue, new DTO(
+                                new Slot("valueChange", matchingAttr.getValue(), matchingAttr.getQualifier())
+                        ));
+                    }
                 }
 
             }
@@ -103,6 +105,7 @@ public class TutorialAction extends DolphinServerAction {
         actionRegistry.register("add", new CommandHandler<Command>() {
             @Override
             public void handleCommand(Command command, List<Command> response) {
+                System.err.println(TutorialAction.this);
                 count++;
                 final DTO dto = new DTO(
                         new Slot("location", "unknown", "weather." + count + ".location"),
@@ -111,7 +114,7 @@ public class TutorialAction extends DolphinServerAction {
                 presentationModel("weather."+count, "weather", dto);
 
                 eventBus.publish(valueQueue, dto);
-                System.err.println("added model");
+                System.err.println("added model "+count);
             }
         });
     }
