@@ -51,6 +51,10 @@
                 'comm/ClientAttribute'
             ], function (Dolphin, ClientAttribute) {
 
+                // delete session cookie
+                var expiredDate = new Date(new Date().getTime() - 1000).toUTCString();
+                document.cookie = document.cookie + '; expires=' + expiredDate + '; path=/dolphinServer';
+
                 const serverUrl = "http://localhost:8080/dolphinServer/tutorial/";
 
                 var dolphin = new Dolphin(serverUrl);

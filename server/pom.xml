@@ -16,9 +16,5 @@
             <groupId>org.open-dolphin</groupId>
             <artifactId>dolphin-server</artifactId>
         </dependency>
-        <dependency>
-            <groupId>MyFirstDolphin</groupId>
-            <artifactId>shared</artifactId>
-        </dependency>
     </dependencies>
 </project>
