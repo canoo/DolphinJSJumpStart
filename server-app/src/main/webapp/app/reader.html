@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <title>Dolphin.js Reader Demo</title>
+
+        <script src="libs/require.js"></script>
+        <script src="libs/dolphin.min.js"></script>
+        <script src="config.js"></script>
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+        <style>
+            body {
+                padding-top: 60px; /* 60px to make the container go all the way to the bottom of the topbar */
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="navbar navbar-inverse navbar-fixed-top">
+            <div class="navbar-inner">
+                <div class="container">
+                    <a class="brand" href="#">Dolphin.js</a>
+
+                    <ul class="nav">
+                        <li class="active"><a href="#code">Code</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <h1>Dolphin.js Tutorial</h1>
+
+            <fieldset>
+                <div id="list"></div>
+            </fieldset>
+
+            <pre id="showCode" class="prettyprint" data-script-id="dolphinCode">
+                <!-- The code snippet will be shown here -->
+            </pre>
+        </div>
+
+        <script id="dolphinCode">
+            require([
+                'Dolphin',
+                'comm/ClientAttribute',
+                'comm/EmptyNotification'
+            ], function (Dolphin, ClientAttribute, EmptyNotification) {
+
+                // delete session cookie
+                var expiredDate = new Date(new Date().getTime() - 1000).toUTCString();
+                document.cookie = document.cookie + '; expires=' + expiredDate + '; path=/dolphinServer';
+
+                console.log(document.cookie);
+
+                const serverUrl = "http://localhost:8080/dolphinServer/tutorial/";
+
+                var dolphin = new Dolphin(serverUrl);
+
+                dolphin.getClientDolphin().send(new EmptyNotification(), function() {
+
+                    var list = document.getElementById("list");
+
+                    function longPoll(models) {
+                        if (models && models.length == 1) {
+                            var model = models[0];
+                            var element = document.createElement("div");
+
+                            var render = function() {
+                                var myLocAttr = model.getAttributeByPropertyName("location");
+                                var myTempAttr = model.getAttributeByPropertyName("temperature");
+                                element.innerHTML = model.presentationModelType + ": " + myLocAttr.value + "/" + myTempAttr.value;
+                            };
+                            render();
+                            model.on("render", render);
+
+                            list.appendChild(element);
+                        }
+
+                        dolphin.getClientDolphin().send("longPoll", longPoll);
+                    }
+                    longPoll();
+
+                });
+
+            });
+        </script>
+
+        <script>
+            var showCode = document.getElementById("showCode");
+            var scriptId = showCode.getAttribute("data-script-id");
+            var script = document.getElementById(scriptId);
+            showCode.innerHTML = script.innerHTML;
+        </script>
+        <script src="https://google-code-prettify.googlecode.com/svn/loader/run_prettify.js?skin=sunburst"></script>
+    </body>
+</html>

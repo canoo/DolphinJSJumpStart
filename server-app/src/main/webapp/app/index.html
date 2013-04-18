@@ -48,8 +48,9 @@
         <script id="dolphinCode">
             require([
                 'Dolphin',
-                'comm/ClientAttribute'
-            ], function (Dolphin, ClientAttribute) {
+                'comm/ClientAttribute',
+                'comm/EmptyNotification'
+            ], function (Dolphin, ClientAttribute, EmptyNotification) {
 
                 // delete session cookie
                 var expiredDate = new Date(new Date().getTime() - 1000).toUTCString();
@@ -61,60 +62,64 @@
 
                 var dolphin = new Dolphin(serverUrl);
 
-                var locAttr = new ClientAttribute("location");
-                var tempAttr = new ClientAttribute("temperature");
-                var weatherMold = dolphin.getClientDolphin().presentationModel(
-                        "weatherMold",
-                        "weather",
-                        locAttr, tempAttr
-                );
+                dolphin.getClientDolphin().send(new EmptyNotification(), function() {
 
-                var locInput = document.getElementById("locInput");
-                var tempInput = document.getElementById("tempInput");
+                    var locAttr = new ClientAttribute("location");
+                    var tempAttr = new ClientAttribute("temperature");
+                    var weatherMold = dolphin.getClientDolphin().presentationModel(
+                            "weatherMold",
+                            "weather",
+                            locAttr, tempAttr
+                    );
 
-                tempInput.addEventListener("input", function () {
-                    var value = tempInput.value;
-                    tempAttr.setValue(value);
-                });
+                    var locInput = document.getElementById("locInput");
+                    var tempInput = document.getElementById("tempInput");
 
-                tempAttr.on("valueChange", function(data) {
-                    tempInput.value = data.newValue;
-                });
-
-                locInput.addEventListener("input", function () {
-                    var value = locInput.value;
-                    locAttr.setValue(value);
-                });
-
-                locAttr.on("valueChange", function(data) {
-                    locInput.value = data.newValue;
-                });
-
-
-                var list = document.getElementById("list");
-
-                var addButton = document.getElementById("addButton");
-                addButton.addEventListener("click", function () {
-                    dolphin.getClientDolphin().send("add", function (models) {
-                        models.forEach(function (model) {
-                            var element = document.createElement("div");
-
-                            var render = function() {
-                                var myLocAttr = model.getAttributeByPropertyName("location");
-                                var myTempAttr = model.getAttributeByPropertyName("temperature");
-                                element.innerHTML = model.presentationModelType + ": " + myLocAttr.value + "/" + myTempAttr.value;
-                            };
-                            render();
-                            model.on("render", render);
-
-                            element.addEventListener("click", function() {
-                                weatherMold.syncWith(model);
-                            });
-
-                            list.appendChild(element);
-                        })
+                    tempInput.addEventListener("input", function () {
+                        var value = tempInput.value;
+                        tempAttr.setValue(value);
                     });
-                });
+
+                    tempAttr.on("valueChange", function(data) {
+                        tempInput.value = data.newValue;
+                    });
+
+                    locInput.addEventListener("input", function () {
+                        var value = locInput.value;
+                        locAttr.setValue(value);
+                    });
+
+                    locAttr.on("valueChange", function(data) {
+                        locInput.value = data.newValue;
+                    });
+
+
+                    var list = document.getElementById("list");
+
+                    var addButton = document.getElementById("addButton");
+                    addButton.addEventListener("click", function () {
+                        dolphin.getClientDolphin().send("add", function (models) {
+                            models.forEach(function (model) {
+                                var element = document.createElement("div");
+
+                                var render = function() {
+                                    var myLocAttr = model.getAttributeByPropertyName("location");
+                                    var myTempAttr = model.getAttributeByPropertyName("temperature");
+                                    element.innerHTML = model.presentationModelType + ": " + myLocAttr.value + "/" + myTempAttr.value;
+                                };
+                                render();
+                                model.on("render", render);
+
+                                element.addEventListener("click", function() {
+                                    weatherMold.syncWith(model);
+                                });
+
+                                list.appendChild(element);
+                            })
+                        });
+                    });
+
+                })
 
             });
         </script>

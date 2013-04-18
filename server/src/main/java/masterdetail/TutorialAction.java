@@ -53,14 +53,15 @@ public class TutorialAction extends DolphinServerAction {
                                 final ModelStore modelStore = getServerDolphin().getServerModelStore();
                                 final List<Attribute> attributes = modelStore.findAllAttributesByQualifier(slot.getQualifier());
                                 if (attributes.size() > 0) {
+                                    System.err.println("READER value changed");
                                     changeValue((ServerAttribute) attributes.get(0), slot.getValue());
                                 } else {
                                     System.err.println("No attributes found for qualifier "+slot.getQualifier());
                                 }
                             }
                         } else if (nrOfSlots == 2) {
-                            count++;
-                            presentationModel("weather."+count, "weather", dto);
+                            System.err.println("READER creating presentation model");
+                            presentationModel(null, "weather", dto);
                         }
                     }
 
