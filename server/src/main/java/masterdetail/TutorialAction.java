@@ -41,31 +41,39 @@ public class TutorialAction extends DolphinServerAction {
             @Override
             public void handleCommand(Command command, List<Command> response) {
                 try {
+                    System.err.println(" <<< "+TutorialAction.this);
+//                    System.err.println(" <<< VQ "+System.identityHashCode(valueQueue));
+//                    System.err.println(" <<< EB "+System.identityHashCode(eventBus));
                     final DTO dto = valueQueue.getVal(60, TimeUnit.SECONDS);
 
-                    System.err.println("reading "+dto);
+                    System.err.println(" <<< reading dto");
 
                     if (dto != null) {
                         final int nrOfSlots = dto.getSlots().size();
+                        System.err.println(" <<< dto "+nrOfSlots);
+
                         if (nrOfSlots == 1) {
                             final Slot slot = dto.getSlots().get(0);
-                            if (slot.getPropertyName().equals("changeValue")) {
+                            if ("valueChange".equals(slot.getPropertyName())) {
                                 final ModelStore modelStore = getServerDolphin().getServerModelStore();
                                 final List<Attribute> attributes = modelStore.findAllAttributesByQualifier(slot.getQualifier());
                                 if (attributes.size() > 0) {
-                                    System.err.println("READER value changed");
                                     changeValue((ServerAttribute) attributes.get(0), slot.getValue());
+                                    System.err.println(" <<< value changed");
                                 } else {
                                     System.err.println("No attributes found for qualifier "+slot.getQualifier());
                                 }
                             }
                         } else if (nrOfSlots == 2) {
-                            System.err.println("READER creating presentation model");
+                            System.err.println(" <<< pm add");
                             presentationModel(null, "weather", dto);
                         }
                     }
 
-                } catch (InterruptedException e) {
+                    System.err.println();
+
+                } catch (Exception e) {
+                    System.err.println("ERRORR");
                     e.printStackTrace();
                 }
             }
@@ -75,7 +83,10 @@ public class TutorialAction extends DolphinServerAction {
         actionRegistry.register(ValueChangedCommand.class, new CommandHandler<Command>() {
             @Override
             public void handleCommand(Command command, List<Command> response) {
-                System.err.println(command);
+                System.err.println(">>> "+TutorialAction.this);
+//                System.err.println(">>> VQ "+System.identityHashCode(valueQueue));
+//                System.err.println(">>> EB "+System.identityHashCode(eventBus));
+//                System.err.println(">>> "+command);
 
                 final ServerPresentationModel presentationModel = getServerDolphin().getAt("weatherMold");
                 if (presentationModel != null) {
@@ -92,12 +103,14 @@ public class TutorialAction extends DolphinServerAction {
                     }
 
                     if (matchingAttr != null) {
-                        System.err.println("publishing value change: "+matchingAttr.getQualifier());
+                        System.err.println(">>> publishing value change: "+matchingAttr.getQualifier());
                         eventBus.publish(valueQueue, new DTO(
                                 new Slot("valueChange", matchingAttr.getValue(), matchingAttr.getQualifier())
                         ));
                     }
                 }
+
+                System.err.println();
 
             }
         });
@@ -106,16 +119,21 @@ public class TutorialAction extends DolphinServerAction {
         actionRegistry.register("add", new CommandHandler<Command>() {
             @Override
             public void handleCommand(Command command, List<Command> response) {
-                System.err.println(TutorialAction.this);
+                System.err.println(">>> "+TutorialAction.this);
+//                System.err.println(">>> VQ "+System.identityHashCode(valueQueue));
+//                System.err.println(">>> EB "+System.identityHashCode(eventBus));
+//                System.err.println(">>> "+command);
                 count++;
                 final DTO dto = new DTO(
                         new Slot("location", "unknown", "weather." + count + ".location"),
                         new Slot("temperature", "0", "weather." + count + ".temperature")
                 );
-                presentationModel("weather."+count, "weather", dto);
+                presentationModel("weather." + count, "weather", dto);
 
+                System.err.println(">>> publishing add");
                 eventBus.publish(valueQueue, dto);
-                System.err.println("added model "+count);
+
+                System.err.println();
             }
         });
     }

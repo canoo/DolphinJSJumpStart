@@ -21,24 +21,20 @@
             <div class="navbar-inner">
                 <div class="container">
                     <a class="brand" href="#">Dolphin.js</a>
-
-                    <ul class="nav">
-                        <li class="active"><a href="#code">Code</a></li>
-                    </ul>
                 </div>
             </div>
         </div>
 
         <div class="container">
-            <h1>Dolphin.js Tutorial</h1>
+            <h1>Reader</h1>
 
             <fieldset>
                 <div id="list"></div>
             </fieldset>
 
-            <pre id="showCode" class="prettyprint" data-script-id="dolphinCode">
-                <!-- The code snippet will be shown here -->
-            </pre>
+            <!--<pre id="showCode" class="prettyprint" data-script-id="dolphinCode">-->
+                <!--&lt;!&ndash; The code snippet will be shown here &ndash;&gt;-->
+            <!--</pre>-->
         </div>
 
         <script id="dolphinCode">
@@ -48,21 +44,19 @@
                 'comm/EmptyNotification'
             ], function (Dolphin, ClientAttribute, EmptyNotification) {
 
-                // delete session cookie
-                var expiredDate = new Date(new Date().getTime() - 1000).toUTCString();
-                document.cookie = document.cookie + '; expires=' + expiredDate + '; path=/dolphinServer';
+                var dolphin = new Dolphin({
+                    serverUrl: "http://localhost:8080/dolphinServer/tutorial/",
+                    clearSession: true
+                });
 
-                console.log(document.cookie);
+                dolphin.getClientDolphin().sendEmpty(function() {
 
-                const serverUrl = "http://localhost:8080/dolphinServer/tutorial/";
-
-                var dolphin = new Dolphin(serverUrl);
-
-                dolphin.getClientDolphin().send(new EmptyNotification(), function() {
+                    console.log("INIT");
 
                     var list = document.getElementById("list");
 
                     function longPoll(models) {
+                        console.log("... CALLBACK", models);
                         if (models && models.length == 1) {
                             var model = models[0];
                             var element = document.createElement("div");
@@ -78,6 +72,7 @@
                             list.appendChild(element);
                         }
 
+                        console.log("POLLING ...");
                         dolphin.getClientDolphin().send("longPoll", longPoll);
                     }
                     longPoll();
@@ -87,12 +82,12 @@
             });
         </script>
 
-        <script>
-            var showCode = document.getElementById("showCode");
-            var scriptId = showCode.getAttribute("data-script-id");
-            var script = document.getElementById(scriptId);
-            showCode.innerHTML = script.innerHTML;
-        </script>
-        <script src="https://google-code-prettify.googlecode.com/svn/loader/run_prettify.js?skin=sunburst"></script>
+        <!--<script>-->
+            <!--var showCode = document.getElementById("showCode");-->
+            <!--var scriptId = showCode.getAttribute("data-script-id");-->
+            <!--var script = document.getElementById(scriptId);-->
+            <!--showCode.innerHTML = script.innerHTML;-->
+        <!--</script>-->
+        <!--<script src="https://google-code-prettify.googlecode.com/svn/loader/run_prettify.js?skin=sunburst"></script>-->
     </body>
 </html>
