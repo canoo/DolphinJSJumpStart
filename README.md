@@ -24,7 +24,7 @@ The other browser can act as a viewer of the data. Use the other browser and go 
 
     http://localhost:8080/dolphinServer/reader/
 
-Now you can use the editor to add and then edit some weather records. When you do this watch the reader application in the other browser.
+Now you can use the editor application to add and edit some weather records. When you do this watch the reader application in the other browser for any changes.
 
 ##Running the mobile sample##
 
