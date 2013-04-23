@@ -1,0 +1,16 @@
+@import "font-awesome";
+
+@mixin font-smoothing($val: antialiased) {
+  -webkit-font-smoothing: $val;
+  -moz-font-smoothing: $val;
+  -ms-font-smoothing: $val;
+  -o-font-smoothing: $val;
+  font-smoothing: $val;
+}
+
+$font-path : '../fonts';
+
+@mixin bold-font($font-size: 1em) {
+  font-family: $fx-font-bold;
+  font-size: $font-size;
+}

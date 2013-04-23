@@ -1,0 +1,11 @@
+.idea/
+*.iml
+*.ipr
+*.iws
+build/
+.sass-cache/
+node_modules/
+node_modules/*
+test/buster-report.xml
+atlassian-ide-plugin.xml
+src/scripts/

@@ -1,0 +1,27 @@
+.ui-item-list {
+
+  background-color: rgb(245, 245, 245);
+
+  .ui-list-item {
+    padding: .4em .8em;
+    border-bottom: 1px solid #b0c4de;
+
+    &:last-child {
+      border-bottom: none;
+    }
+
+    .ui-list-item-title {
+
+    }
+
+    .ui-list-item-sub-title {
+      color: #adadad;
+      font-size: .8em;
+    }
+  }
+
+  .ui-list-scroll-content {
+    width: 100%;
+    height: 100%;
+  }
+}

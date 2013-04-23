@@ -8,3 +8,4 @@ dist
 out
 gradle-app.setting
 target
+server-app/src/main/webapp/mobile/

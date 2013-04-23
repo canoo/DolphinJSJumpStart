@@ -1,0 +1,201 @@
+$btn-padding: .4em .8em;
+$btn-radius: 4px;
+$btn-border-color: rgb(0, 59, 62);
+
+.ui-button-bar {
+
+  @include hbox;
+  @include box-pack(center);
+  @include box-align(center);
+
+  padding-top: 1em;
+  padding-bottom: 1em;
+
+  font-size: 1.2em;
+
+  & .ui-button {
+    margin-right: 0.8em;
+    text-align: center;
+  }
+
+  & .ui-button:last-child {
+    margin-right: 0;
+  }
+}
+
+@mixin button-normal($color : $fx-base-color) {
+  background-color: $color;
+
+  @include box-shadow(rgba(255, 255, 255, 0.12) 0 1px 0 inset);
+  @include background-image(linear-gradient(top, lighten($color, 5%), $color));
+}
+
+@mixin button-pressed($color : $fx-base-color) {
+  $color-start: darken($color, 2.5%);
+  $color-stop: darken($color, 5%);
+
+  background-color: $color-start;
+  @include background-image(linear-gradient(top, $color-start, $color-stop));
+}
+
+@mixin button-disabled($color : darkgray) {
+  $color-start: darken($color, 2.5%);
+  $color-stop: darken($color, 5%);
+  $color-border: darken($color, 10%);
+
+  background-color: $color-start;
+  @include background-image(linear-gradient(top, $color-start, $color-stop));
+
+  border: 1px solid $color-border;
+}
+
+@mixin button {
+  color: white;
+  letter-spacing: .05em;
+  text-align: center;
+  text-shadow: 0 -1px rgba(0, 0, 0, 0.5);
+}
+
+.ui-button {
+
+  @include hbox;
+  @include box-align(center);
+  @include box-pack(center);
+
+  padding: $btn-padding;
+  border-radius: $btn-radius;
+
+  border: 1px solid $btn-border-color;
+
+  @include button;
+  @include button-normal;
+
+  min-width: $fx-base-font-size * 4;
+  min-height: $fx-base-font-size * 2.2;
+
+  &.button-pressed {
+    @include button-pressed;
+  }
+
+  &.button-disabled {
+    @include button-disabled;
+  }
+
+  &.button-invisible {
+    visibility: hidden;
+  }
+
+  .button-icon {
+    min-width: 1.2em;
+    margin-right: .2em;
+  }
+
+  .button-title {
+  }
+
+  .button-title, .button-icon {
+    span {
+      vertical-align: sub;
+    }
+  }
+}
+
+.ui-list {
+
+  $list-border: 1px solid #a9a9a9;
+
+  border-radius: 4px;
+  border: $list-border;
+
+  .ui-list-button {
+    padding: 1em;
+    border-bottom: $list-border;
+
+    @include hbox;
+    @include box-align(left);
+    @include button;
+    @include button-normal;
+
+    &.button-pressed {
+      @include button-pressed;
+    }
+
+    .button-icon {
+      min-width: 1.2em;
+      //margin-right: 10px;
+    }
+  }
+
+  .ui-list-button:last-child {
+    border-bottom: none;
+  }
+}
+
+.ui-list {
+
+  $list-border: 1px solid #a9a9a9;
+
+  border-radius: 4px;
+  border: $list-border;
+
+  .ui-list-networkButton {
+    background-color: #ffffff;
+    padding: 1em;
+    border-bottom: $list-border;
+
+    @include hbox;
+    @include box-align(left);
+
+    &.button-pressed {
+      background-color: $fx-base-color;
+    }
+
+    .button-icon {
+      min-width: 1.2em;
+      //margin-right: 10px;
+    }
+
+    .network-button-icon {
+      min-width: 1.2em;
+      text-align: left;
+      //margin-right: 10px;
+    }
+
+    .network-button-title {
+      @include box-flex(1);
+      text-align: left;
+    }
+
+    .network-button-icon, .network-button-title {
+      span {
+        vertical-align: sub;
+      }
+    }
+
+    .network-button-spinner {
+      @include background-image(inline-image('spinner_large.gif'));
+      margin-right: 0.2em;
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: center;
+      min-width: 1.2em;
+      visibility: hidden;
+    }
+
+    .network-button-spinner-show {
+      visibility: visible;
+    }
+  }
+
+  .ui-list-networkButton:first-child {
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+  }
+
+  .ui-list-networkButton:last-child {
+    border-bottom: none;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+  }
+}
+

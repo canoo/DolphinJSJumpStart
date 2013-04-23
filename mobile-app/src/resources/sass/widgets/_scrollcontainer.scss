@@ -1,0 +1,21 @@
+.ui-scroller-container {
+
+  @include vbox;
+  @include box-flex(1);
+
+  .ui-scroller {
+
+    @include box-flex(1);
+
+    position: relative;
+
+    .ui-scroller-inner {
+      position: absolute;
+      -webkit-overflow-scrolling: touch;
+      overflow-y: scroll;
+
+      height: 100%;
+      width: 100%;
+    }
+  }
+}

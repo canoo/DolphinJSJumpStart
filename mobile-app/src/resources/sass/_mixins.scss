@@ -1,0 +1,36 @@
+@mixin vbox() {
+  @include display-box;
+  @include box-orient(vertical);
+}
+
+@mixin hbox() {
+  @include display-box;
+  @include box-orient(horizontal);
+}
+
+@mixin position-center {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  vertical-align: middle;
+}
+
+@mixin view-title {
+  @include bold-font(1.5em);
+  padding: .5em 0;
+  color: $fx-base-color;
+}
+
+@mixin custom-hyphenation {
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+  -o-hyphens: auto;
+  hyphens: auto;
+
+  word-break: break-all;
+  word-break: break-word;
+
+  hyphenate-limit-chars: auto;
+  hyphenate-limit-lines: 2;
+}

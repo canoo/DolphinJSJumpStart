@@ -1,0 +1,54 @@
+.ui-msg-box {
+
+  background-color: rgb(245, 245, 245);
+  color: $fx-base-color;
+  opacity: 1;
+  border-radius: 4px;
+
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  padding-left: 1em;
+  padding-right: 1em;
+
+  text-align: center;
+
+  width: 80%;
+  min-height: 200px;
+  max-height: 400px;
+
+  .msg-box-title{
+    //text-transform: uppercase;
+
+    padding: 0.5em;
+    @include bold-font(140%);
+    border-bottom: 1px solid $fx-base-color;
+  }
+
+  .msg-box-text{
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+    padding-left: 0.8em;
+    padding-right: 0.8em;
+  }
+
+  .msg-box-buttonbar {
+
+    @include hbox;
+    @include box-pack(center);
+    @include box-align(center);
+
+  }
+
+}
+
+.img-box {
+  width: 80%;
+  min-height: 200px;
+  max-height: 400px;
+
+  .img-box-image {
+    border-radius: 4px;
+    width: 100%;
+  }
+
+}

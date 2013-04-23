@@ -1,0 +1,39 @@
+{
+    "name"        : "foxtrail",
+    "version"     : "1.0.0",
+
+    "ignore": [
+        "examples/",
+        "test/",
+        "docs/",
+        "tests/",
+        "**/*.txt",
+        "**/*.png",
+        "**/*.jpg",
+        "**/*.pdf",
+        "**/*.html",
+        "**/Rakefile",
+        "**/LICENSE",
+        "**/.travis.yml",
+        "**/.gitignore",
+        "**/.npmignore",
+        "**/*.md"
+    ],
+
+    "dependencies": {
+        "backbone"              : "1.0.0",
+        "backbone.layoutmanager": "https://github.com/tbranyen/backbone.layoutmanager.git#~0.8.7 ",
+        "underscore"            : "1.4.4",
+        "underscore.deferred"   : "https://github.com/wookiehangover/underscore.deferred.git",
+        "handlebars"            : "1.0.0-rc.3",
+        "requirejs"             : "~2.1.5",
+        "i18n"                  : "https://github.com/requirejs/i18n.git",
+        "zepto"                 : "https://github.com/olegomon/zepto.core.git",
+        "move"                  : "https://github.com/visionmedia/move.js.git",
+        "hammer"                : "https://github.com/EightMedia/hammer.js.git#1.0.5",
+        "moment"                : "https://github.com/timrwood/moment.git",
+        "iscroll"               : "*",
+        "parsleyjs"             : "1.1.14",
+        "dolphinjs"             : "https://github.com/canoo/dolphin.js.git"
+    }
+}
