@@ -13,6 +13,13 @@
             body {
                 padding-top: 60px; /* 60px to make the container go all the way to the bottom of the topbar */
             }
+            .container {
+                width: 600px;
+            }
+
+            #addButton {
+                margin-bottom: 10px;
+            }
         </style>
     </head>
 
@@ -26,94 +33,34 @@
         </div>
 
         <div class="container">
-            <h1>Editor</h1>
+            <!--<h1>Editor</h1>-->
 
             <fieldset>
+                <legend>Editor</legend>
                 <span class="help-block">Select a measurement and edit or add a new one.</span>
                 <input id="locInput" type="text" placeholder="Location..."/>
-                <input id="tempInput" type="text" placeholder="Temperature..."/>
+                <input id="tempInput" type="number" placeholder="Temperature..."/>
                 <button id="addButton" class="btn btn-primary">Add</button>
-                <div id="list"></div>
             </fieldset>
+
+            <table class="table table-bordered table-hover" id="list">
+
+                <thead>
+                <th>#</th>
+                <th>Location</th>
+                <th>Temperature</th>
+                </thead>
+
+                <tbody id="weather-records"></tbody>
+
+            </table>
 
             <!--<pre id="showCode" class="prettyprint" data-script-id="dolphinCode">-->
                 <!--&lt;!&ndash; The code snippet will be shown here &ndash;&gt;-->
             <!--</pre>-->
         </div>
 
-        <script id="dolphinCode">
-            require([
-                'Dolphin',
-                'comm/ClientAttribute',
-                'comm/EmptyNotification'
-            ], function (Dolphin, ClientAttribute, EmptyNotification) {
-
-                var url = window.location.protocol + '//' + window.location.host + "/dolphinServer/tutorial/";
-                var dolphin = new Dolphin({ serverUrl: url, clearSession: true });
-
-                dolphin.getClientDolphin().sendEmpty(function() {
-
-                    console.log("INIT");
-
-                    var locAttr = new ClientAttribute("location");
-                    var tempAttr = new ClientAttribute("temperature");
-                    var weatherMold = dolphin.getClientDolphin().presentationModel(
-                            "weatherMold",
-                            "weather",
-                            locAttr, tempAttr
-                    );
-
-                    var locInput = document.getElementById("locInput");
-                    var tempInput = document.getElementById("tempInput");
-
-                    tempInput.addEventListener("input", function () {
-                        var value = tempInput.value;
-                        tempAttr.setValue(value);
-                    });
-
-                    tempAttr.on("valueChange", function(data) {
-                        tempInput.value = data.newValue;
-                    });
-
-                    locInput.addEventListener("input", function () {
-                        var value = locInput.value;
-                        locAttr.setValue(value);
-                    });
-
-                    locAttr.on("valueChange", function(data) {
-                        locInput.value = data.newValue;
-                    });
-
-
-                    var list = document.getElementById("list");
-
-                    var addButton = document.getElementById("addButton");
-                    addButton.addEventListener("click", function () {
-                        dolphin.getClientDolphin().send("add", function (models) {
-                            models.forEach(function (model) {
-                                var element = document.createElement("div");
-
-                                var render = function() {
-                                    var myLocAttr = model.getAttributeByPropertyName("location");
-                                    var myTempAttr = model.getAttributeByPropertyName("temperature");
-                                    element.innerHTML = model.presentationModelType + ": " + myLocAttr.value + "/" + myTempAttr.value;
-                                };
-                                render();
-                                model.on("render", render);
-
-                                element.addEventListener("click", function() {
-                                    weatherMold.syncWith(model);
-                                });
-
-                                list.appendChild(element);
-                            })
-                        });
-                    });
-
-                })
-
-            });
-        </script>
+        <script id="dolphinCode" src="editor.js"></script>
 
         <!--<script>-->
             <!--var showCode = document.getElementById("showCode");-->
