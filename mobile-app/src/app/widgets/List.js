@@ -8,6 +8,7 @@ define([
     'backbone.layoutmanager'], function ($, _, Backbone, iScroll, Hammertime, ListItem) {
 
     var ListContent = Backbone.Layout.extend({
+        template: 'widgets/list-content',
         className: 'ui-list-scroll-content box-flex',
 
         initialize: function(options) {
@@ -21,12 +22,12 @@ define([
 
                 this.collection.each(function (model) {
                     var listItem = new me.listItem({ model: model });
-                    me.insertView(listItem);
+                    me.insertView('.ui-list-scroll-content-inner', listItem);
                 }, this);
 
                 this.collection.on('add', function(model) {
                     var listItem = new me.listItem({ model: model });
-                    me.insertView(listItem);
+                    me.insertView('.ui-list-scroll-content-inner', listItem);
                     listItem.render();
                     me.trigger('refresh');
                 }, this);
@@ -111,7 +112,7 @@ define([
                     onScrollEnd: _.bind(this._onScrollEnd, this)
                 };
 
-                this.scroller = new iScroll(this.el, settings);
+                this.scroller = new iScroll(this.el.firstChild, settings);
 //            }
         },
 
