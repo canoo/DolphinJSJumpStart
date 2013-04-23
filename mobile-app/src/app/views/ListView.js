@@ -31,7 +31,7 @@ define([
                 alert(model.get('location') + ' / ' + model.get('temperature'));
             });
 
-            var title = "Weather List / {#}";
+            var title = "Dolphin.JS Weather / {#}";
 
             var searchValue = /{#}/g;
 

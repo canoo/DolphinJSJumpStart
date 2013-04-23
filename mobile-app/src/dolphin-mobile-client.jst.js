@@ -26,7 +26,7 @@ helpers = helpers || Handlebars.helpers; data = data || {};
   var buffer = "", stack1, functionType="function", escapeExpression=this.escapeExpression;
 
 
-  buffer += "<div class=\"ui-list-item-title box-flex\">";
+  buffer += "<div class=\"ui-list-item-title box-flex\"><i class=\"icon-map-marker\"/> ";
   if (stack1 = helpers.location) { stack1 = stack1.call(depth0, {hash:{},data:data}); }
   else { stack1 = depth0.location; stack1 = typeof stack1 === functionType ? stack1.apply(depth0) : stack1; }
   buffer += escapeExpression(stack1)
@@ -80,7 +80,7 @@ helpers = helpers || Handlebars.helpers; data = data || {};
   var buffer = "", stack1, functionType="function", escapeExpression=this.escapeExpression;
 
 
-  buffer += "<div class=\"ui-header-title\">";
+  buffer += "<div class=\"ui-header-title\"><i class=\"icon-cloud\"/> <i class=\"icon-bolt\"/> <i class=\"icon-umbrella\"/> ";
   if (stack1 = helpers.title) { stack1 = stack1.call(depth0, {hash:{},data:data}); }
   else { stack1 = depth0.title; stack1 = typeof stack1 === functionType ? stack1.apply(depth0) : stack1; }
   buffer += escapeExpression(stack1)
