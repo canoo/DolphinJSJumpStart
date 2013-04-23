@@ -11,6 +11,15 @@ helpers = helpers || Handlebars.helpers; data = data || {};
   return "<div class=\"content box-flex\"/>\n\n";
   };
 
+this["JST"]["app/templates/views/list-view.html"] = function (Handlebars,depth0,helpers,partials,data) {
+  this.compilerInfo = [2,'>= 1.0.0-rc.3'];
+helpers = helpers || Handlebars.helpers; data = data || {};
+  
+
+
+  return "<div class=\"list-header\"></div>\n<div class=\"list-content box-flex\"></div>\n<div class=\"list-footer\"></div>\n";
+  };
+
 this["JST"]["app/templates/views/weather-list-item.html"] = function (Handlebars,depth0,helpers,partials,data) {
   this.compilerInfo = [2,'>= 1.0.0-rc.3'];
 helpers = helpers || Handlebars.helpers; data = data || {};
@@ -62,6 +71,20 @@ function program3(depth0,data) {
   stack1 = helpers['if'].call(depth0, depth0.title, {hash:{},inverse:self.noop,fn:self.program(3, program3, data),data:data});
   if(stack1 || stack1 === 0) { buffer += stack1; }
   buffer += "\n";
+  return buffer;
+  };
+
+this["JST"]["app/templates/widgets/header.html"] = function (Handlebars,depth0,helpers,partials,data) {
+  this.compilerInfo = [2,'>= 1.0.0-rc.3'];
+helpers = helpers || Handlebars.helpers; data = data || {};
+  var buffer = "", stack1, functionType="function", escapeExpression=this.escapeExpression;
+
+
+  buffer += "<div class=\"ui-header-title\">";
+  if (stack1 = helpers.title) { stack1 = stack1.call(depth0, {hash:{},data:data}); }
+  else { stack1 = depth0.title; stack1 = typeof stack1 === functionType ? stack1.apply(depth0) : stack1; }
+  buffer += escapeExpression(stack1)
+    + "</div>";
   return buffer;
   };
 

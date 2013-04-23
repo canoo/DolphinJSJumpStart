@@ -9,14 +9,12 @@ define([
     'config/Properties',
 
     'dolphinjs/dolphin',
-    'comm/ClientAttribute',
-    'models/WeatherModel',
-    'models/WeatherModelCollection',
-    'views/WeatherListItem',
+    'views/ListView',
+
 
     // Plugins
     'backbone.layoutmanager'
-], function ($, _, Backbone, UI, App, Properties, Dolphin, ClientAttribute, WeatherModel, WeatherModelCollection, WeatherListItem) {
+], function ($, _, Backbone, UI, App, Properties, Dolphin, ListView) {
 
 
     var Controller = function() {
@@ -46,16 +44,7 @@ define([
                     });
 
                     dolphin.getClientDolphin().sendEmpty(function() {
-
-                        var items = new WeatherModelCollection([], { dolphin: dolphin });
-
-                        var list = new UI.List({ listItem: WeatherListItem, collection: items, scrollable: true });
-
-                        list.on('itemTap', function(model) {
-                            alert(model.get('temperature') + ' / ' + model.get('humidity'));
-                        });
-
-                        App.Viewport.pushCard('main', list);
+                        App.Viewport.pushCard('main', new ListView({dolphin: dolphin}));
                     });
                 });
         }

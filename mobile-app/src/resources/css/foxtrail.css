@@ -95,7 +95,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 
 /*  Font Awesome styles
     ------------------------------------------------------- */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\0000343}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\0000343}}
 [class^="icon-"],
 [class*=" icon-"] {
   font-family: FontAwesome;
@@ -116,7 +116,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 }
 
 /* more sprites.less reset */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\0000375}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\0000375}}
 .icon-white,
 .nav-pills > .active > a > [class^="icon-"],
 .nav-pills > .active > a > [class*=" icon-"],
@@ -133,7 +133,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   background-image: none;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\0000380}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\0000380}}
 [class^="icon-"]:before,
 [class*=" icon-"]:before {
   text-decoration: inherit;
@@ -142,46 +142,46 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 }
 
 /* makes sure icons active on rollover in links */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\0000389}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\0000389}}
 a [class^="icon-"],
 a [class*=" icon-"] {
   display: inline-block;
 }
 
 /* makes the font 33% larger relative to the icon container */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\0000395}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\0000395}}
 .icon-large:before {
   vertical-align: -10%;
   font-size: 1.3333333333333333em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003102}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003102}}
 .btn [class^="icon-"],
 .btn [class*=" icon-"], .nav [class^="icon-"],
 .nav [class*=" icon-"] {
   display: inline;
   /* keeps button heights with and without icons the same */
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003105}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003105}}
 .btn [class^="icon-"].icon-large,
 .btn [class*=" icon-"].icon-large, .nav [class^="icon-"].icon-large,
 .nav [class*=" icon-"].icon-large {
   line-height: .9em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003106}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003106}}
 .btn [class^="icon-"].icon-spin,
 .btn [class*=" icon-"].icon-spin, .nav [class^="icon-"].icon-spin,
 .nav [class*=" icon-"].icon-spin {
   display: inline-block;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003112}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003112}}
 .nav-tabs [class^="icon-"],
 .nav-tabs [class*=" icon-"], .nav-pills [class^="icon-"],
 .nav-pills [class*=" icon-"] {
   /* keeps button heights with and without icons the same */
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003114}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003114}}
 .nav-tabs [class^="icon-"], .nav-tabs [class^="icon-"].icon-large,
 .nav-tabs [class*=" icon-"],
 .nav-tabs [class*=" icon-"].icon-large, .nav-pills [class^="icon-"], .nav-pills [class^="icon-"].icon-large,
@@ -190,7 +190,7 @@ a [class*=" icon-"] {
   line-height: .9em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003120}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003120}}
 li [class^="icon-"],
 li [class*=" icon-"], .nav li [class^="icon-"],
 .nav li [class*=" icon-"] {
@@ -198,7 +198,7 @@ li [class*=" icon-"], .nav li [class^="icon-"],
   width: 1.25em;
   text-align: center;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003124}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003124}}
 li [class^="icon-"].icon-large,
 li [class*=" icon-"].icon-large, .nav li [class^="icon-"].icon-large,
 .nav li [class*=" icon-"].icon-large {
@@ -206,23 +206,23 @@ li [class*=" icon-"].icon-large, .nav li [class^="icon-"].icon-large,
   width: 1.5625em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003131}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003131}}
 ul.icons {
   list-style-type: none;
   text-indent: -.75em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003137}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003137}}
 ul.icons li [class^="icon-"],
 ul.icons li [class*=" icon-"] {
   width: .75em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003143}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003143}}
 .icon-muted {
   color: #eeeeee;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003150}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003150}}
 .icon-border {
   border: solid 1px #eeeeee;
   padding: 0.2em 0.25em 0.15em;
@@ -231,11 +231,11 @@ ul.icons li [class*=" icon-"] {
   border-radius: 3px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003159}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003159}}
 .icon-2x {
   font-size: 2em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003161}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003161}}
 .icon-2x.icon-border {
   border-width: 2px;
   -webkit-border-radius: 4px;
@@ -243,11 +243,11 @@ ul.icons li [class*=" icon-"] {
   border-radius: 4px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003166}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003166}}
 .icon-3x {
   font-size: 3em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003168}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003168}}
 .icon-3x.icon-border {
   border-width: 3px;
   -webkit-border-radius: 5px;
@@ -255,11 +255,11 @@ ul.icons li [class*=" icon-"] {
   border-radius: 5px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003173}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003173}}
 .icon-4x {
   font-size: 4em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003175}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003175}}
 .icon-4x.icon-border {
   border-width: 4px;
   -webkit-border-radius: 6px;
@@ -267,69 +267,69 @@ ul.icons li [class*=" icon-"] {
   border-radius: 6px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003185}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003185}}
 .pull-right {
   float: right;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003186}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003186}}
 .pull-left {
   float: left;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003190}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003190}}
 [class^="icon-"].pull-left,
 [class*=" icon-"].pull-left {
   margin-right: .3em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003193}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003193}}
 [class^="icon-"].pull-right,
 [class*=" icon-"].pull-right {
   margin-left: .3em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003202}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003202}}
 .btn [class^="icon-"].pull-left.icon-2x, .btn [class^="icon-"].pull-right.icon-2x,
 .btn [class*=" icon-"].pull-left.icon-2x,
 .btn [class*=" icon-"].pull-right.icon-2x {
   margin-top: .18em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003204}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003204}}
 .btn [class^="icon-"].icon-spin.icon-large,
 .btn [class*=" icon-"].icon-spin.icon-large {
   line-height: .8em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003212}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003212}}
 .btn.btn-small [class^="icon-"].pull-left.icon-2x, .btn.btn-small [class^="icon-"].pull-right.icon-2x,
 .btn.btn-small [class*=" icon-"].pull-left.icon-2x,
 .btn.btn-small [class*=" icon-"].pull-right.icon-2x {
   margin-top: .25em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003219}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003219}}
 .btn.btn-large [class^="icon-"],
 .btn.btn-large [class*=" icon-"] {
   margin-top: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003222}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003222}}
 .btn.btn-large [class^="icon-"].pull-left.icon-2x, .btn.btn-large [class^="icon-"].pull-right.icon-2x,
 .btn.btn-large [class*=" icon-"].pull-left.icon-2x,
 .btn.btn-large [class*=" icon-"].pull-right.icon-2x {
   margin-top: .05em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003224}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003224}}
 .btn.btn-large [class^="icon-"].pull-left.icon-2x,
 .btn.btn-large [class*=" icon-"].pull-left.icon-2x {
   margin-right: .2em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003225}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003225}}
 .btn.btn-large [class^="icon-"].pull-right.icon-2x,
 .btn.btn-large [class*=" icon-"].pull-right.icon-2x {
   margin-left: .2em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003230}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003230}}
 .icon-spin {
   display: inline-block;
   -moz-animation: spin 2s infinite linear;
@@ -422,1253 +422,1253 @@ ul.icons li [class*=" icon-"] {
 
 /*  Font Awesome uses the Unicode Private Use Area (PUA) to ensure screen
     readers do not read off random characters that represent icons */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003268}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003268}}
 .icon-glass:before {
   content: "\f000";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003269}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003269}}
 .icon-music:before {
   content: "\f001";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003270}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003270}}
 .icon-search:before {
   content: "\f002";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003271}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003271}}
 .icon-envelope:before {
   content: "\f003";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003272}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003272}}
 .icon-heart:before {
   content: "\f004";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003273}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003273}}
 .icon-star:before {
   content: "\f005";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003274}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003274}}
 .icon-star-empty:before {
   content: "\f006";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003275}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003275}}
 .icon-user:before {
   content: "\f007";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003276}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003276}}
 .icon-film:before {
   content: "\f008";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003277}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003277}}
 .icon-th-large:before {
   content: "\f009";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003278}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003278}}
 .icon-th:before {
   content: "\f00a";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003279}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003279}}
 .icon-th-list:before {
   content: "\f00b";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003280}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003280}}
 .icon-ok:before {
   content: "\f00c";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003281}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003281}}
 .icon-remove:before {
   content: "\f00d";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003282}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003282}}
 .icon-zoom-in:before {
   content: "\f00e";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003284}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003284}}
 .icon-zoom-out:before {
   content: "\f010";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003285}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003285}}
 .icon-off:before {
   content: "\f011";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003286}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003286}}
 .icon-signal:before {
   content: "\f012";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003287}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003287}}
 .icon-cog:before {
   content: "\f013";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003288}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003288}}
 .icon-trash:before {
   content: "\f014";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003289}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003289}}
 .icon-home:before {
   content: "\f015";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003290}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003290}}
 .icon-file:before {
   content: "\f016";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003291}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003291}}
 .icon-time:before {
   content: "\f017";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003292}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003292}}
 .icon-road:before {
   content: "\f018";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003293}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003293}}
 .icon-download-alt:before {
   content: "\f019";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003294}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003294}}
 .icon-download:before {
   content: "\f01a";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003295}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003295}}
 .icon-upload:before {
   content: "\f01b";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003296}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003296}}
 .icon-inbox:before {
   content: "\f01c";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003297}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003297}}
 .icon-play-circle:before {
   content: "\f01d";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003298}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003298}}
 .icon-repeat:before {
   content: "\f01e";
 }
 
 /* \f020 doesn't work in Safari. all shifted one down */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003301}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003301}}
 .icon-refresh:before {
   content: "\f021";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003302}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003302}}
 .icon-list-alt:before {
   content: "\f022";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003303}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003303}}
 .icon-lock:before {
   content: "\f023";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003304}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003304}}
 .icon-flag:before {
   content: "\f024";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003305}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003305}}
 .icon-headphones:before {
   content: "\f025";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003306}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003306}}
 .icon-volume-off:before {
   content: "\f026";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003307}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003307}}
 .icon-volume-down:before {
   content: "\f027";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003308}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003308}}
 .icon-volume-up:before {
   content: "\f028";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003309}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003309}}
 .icon-qrcode:before {
   content: "\f029";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003310}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003310}}
 .icon-barcode:before {
   content: "\f02a";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003311}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003311}}
 .icon-tag:before {
   content: "\f02b";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003312}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003312}}
 .icon-tags:before {
   content: "\f02c";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003313}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003313}}
 .icon-book:before {
   content: "\f02d";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003314}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003314}}
 .icon-bookmark:before {
   content: "\f02e";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003315}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003315}}
 .icon-print:before {
   content: "\f02f";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003317}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003317}}
 .icon-camera:before {
   content: "\f030";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003318}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003318}}
 .icon-font:before {
   content: "\f031";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003319}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003319}}
 .icon-bold:before {
   content: "\f032";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003320}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003320}}
 .icon-italic:before {
   content: "\f033";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003321}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003321}}
 .icon-text-height:before {
   content: "\f034";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003322}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003322}}
 .icon-text-width:before {
   content: "\f035";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003323}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003323}}
 .icon-align-left:before {
   content: "\f036";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003324}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003324}}
 .icon-align-center:before {
   content: "\f037";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003325}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003325}}
 .icon-align-right:before {
   content: "\f038";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003326}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003326}}
 .icon-align-justify:before {
   content: "\f039";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003327}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003327}}
 .icon-list:before {
   content: "\f03a";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003328}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003328}}
 .icon-indent-left:before {
   content: "\f03b";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003329}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003329}}
 .icon-indent-right:before {
   content: "\f03c";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003330}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003330}}
 .icon-facetime-video:before {
   content: "\f03d";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003331}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003331}}
 .icon-picture:before {
   content: "\f03e";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003333}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003333}}
 .icon-pencil:before {
   content: "\f040";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003334}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003334}}
 .icon-map-marker:before {
   content: "\f041";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003335}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003335}}
 .icon-adjust:before {
   content: "\f042";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003336}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003336}}
 .icon-tint:before {
   content: "\f043";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003337}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003337}}
 .icon-edit:before {
   content: "\f044";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003338}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003338}}
 .icon-share:before {
   content: "\f045";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003339}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003339}}
 .icon-check:before {
   content: "\f046";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003340}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003340}}
 .icon-move:before {
   content: "\f047";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003341}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003341}}
 .icon-step-backward:before {
   content: "\f048";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003342}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003342}}
 .icon-fast-backward:before {
   content: "\f049";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003343}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003343}}
 .icon-backward:before {
   content: "\f04a";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003344}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003344}}
 .icon-play:before {
   content: "\f04b";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003345}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003345}}
 .icon-pause:before {
   content: "\f04c";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003346}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003346}}
 .icon-stop:before {
   content: "\f04d";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003347}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003347}}
 .icon-forward:before {
   content: "\f04e";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003349}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003349}}
 .icon-fast-forward:before {
   content: "\f050";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003350}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003350}}
 .icon-step-forward:before {
   content: "\f051";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003351}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003351}}
 .icon-eject:before {
   content: "\f052";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003352}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003352}}
 .icon-chevron-left:before {
   content: "\f053";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003353}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003353}}
 .icon-chevron-right:before {
   content: "\f054";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003354}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003354}}
 .icon-plus-sign:before {
   content: "\f055";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003355}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003355}}
 .icon-minus-sign:before {
   content: "\f056";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003356}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003356}}
 .icon-remove-sign:before {
   content: "\f057";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003357}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003357}}
 .icon-ok-sign:before {
   content: "\f058";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003358}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003358}}
 .icon-question-sign:before {
   content: "\f059";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003359}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003359}}
 .icon-info-sign:before {
   content: "\f05a";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003360}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003360}}
 .icon-screenshot:before {
   content: "\f05b";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003361}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003361}}
 .icon-remove-circle:before {
   content: "\f05c";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003362}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003362}}
 .icon-ok-circle:before {
   content: "\f05d";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003363}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003363}}
 .icon-ban-circle:before {
   content: "\f05e";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003365}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003365}}
 .icon-arrow-left:before {
   content: "\f060";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003366}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003366}}
 .icon-arrow-right:before {
   content: "\f061";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003367}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003367}}
 .icon-arrow-up:before {
   content: "\f062";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003368}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003368}}
 .icon-arrow-down:before {
   content: "\f063";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003369}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003369}}
 .icon-share-alt:before {
   content: "\f064";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003370}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003370}}
 .icon-resize-full:before {
   content: "\f065";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003371}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003371}}
 .icon-resize-small:before {
   content: "\f066";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003372}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003372}}
 .icon-plus:before {
   content: "\f067";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003373}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003373}}
 .icon-minus:before {
   content: "\f068";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003374}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003374}}
 .icon-asterisk:before {
   content: "\f069";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003375}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003375}}
 .icon-exclamation-sign:before {
   content: "\f06a";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003376}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003376}}
 .icon-gift:before {
   content: "\f06b";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003377}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003377}}
 .icon-leaf:before {
   content: "\f06c";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003378}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003378}}
 .icon-fire:before {
   content: "\f06d";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003379}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003379}}
 .icon-eye-open:before {
   content: "\f06e";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003381}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003381}}
 .icon-eye-close:before {
   content: "\f070";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003382}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003382}}
 .icon-warning-sign:before {
   content: "\f071";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003383}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003383}}
 .icon-plane:before {
   content: "\f072";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003384}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003384}}
 .icon-calendar:before {
   content: "\f073";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003385}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003385}}
 .icon-random:before {
   content: "\f074";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003386}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003386}}
 .icon-comment:before {
   content: "\f075";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003387}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003387}}
 .icon-magnet:before {
   content: "\f076";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003388}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003388}}
 .icon-chevron-up:before {
   content: "\f077";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003389}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003389}}
 .icon-chevron-down:before {
   content: "\f078";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003390}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003390}}
 .icon-retweet:before {
   content: "\f079";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003391}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003391}}
 .icon-shopping-cart:before {
   content: "\f07a";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003392}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003392}}
 .icon-folder-close:before {
   content: "\f07b";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003393}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003393}}
 .icon-folder-open:before {
   content: "\f07c";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003394}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003394}}
 .icon-resize-vertical:before {
   content: "\f07d";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003395}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003395}}
 .icon-resize-horizontal:before {
   content: "\f07e";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003397}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003397}}
 .icon-bar-chart:before {
   content: "\f080";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003398}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003398}}
 .icon-twitter-sign:before {
   content: "\f081";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003399}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003399}}
 .icon-facebook-sign:before {
   content: "\f082";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003400}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003400}}
 .icon-camera-retro:before {
   content: "\f083";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003401}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003401}}
 .icon-key:before {
   content: "\f084";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003402}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003402}}
 .icon-cogs:before {
   content: "\f085";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003403}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003403}}
 .icon-comments:before {
   content: "\f086";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003404}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003404}}
 .icon-thumbs-up:before {
   content: "\f087";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003405}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003405}}
 .icon-thumbs-down:before {
   content: "\f088";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003406}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003406}}
 .icon-star-half:before {
   content: "\f089";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003407}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003407}}
 .icon-heart-empty:before {
   content: "\f08a";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003408}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003408}}
 .icon-signout:before {
   content: "\f08b";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003409}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003409}}
 .icon-linkedin-sign:before {
   content: "\f08c";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003410}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003410}}
 .icon-pushpin:before {
   content: "\f08d";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003411}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003411}}
 .icon-external-link:before {
   content: "\f08e";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003413}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003413}}
 .icon-signin:before {
   content: "\f090";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003414}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003414}}
 .icon-trophy:before {
   content: "\f091";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003415}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003415}}
 .icon-github-sign:before {
   content: "\f092";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003416}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003416}}
 .icon-upload-alt:before {
   content: "\f093";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003417}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003417}}
 .icon-lemon:before {
   content: "\f094";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003418}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003418}}
 .icon-phone:before {
   content: "\f095";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003419}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003419}}
 .icon-check-empty:before {
   content: "\f096";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003420}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003420}}
 .icon-bookmark-empty:before {
   content: "\f097";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003421}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003421}}
 .icon-phone-sign:before {
   content: "\f098";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003422}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003422}}
 .icon-twitter:before {
   content: "\f099";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003423}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003423}}
 .icon-facebook:before {
   content: "\f09a";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003424}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003424}}
 .icon-github:before {
   content: "\f09b";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003425}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003425}}
 .icon-unlock:before {
   content: "\f09c";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003426}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003426}}
 .icon-credit-card:before {
   content: "\f09d";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003427}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003427}}
 .icon-rss:before {
   content: "\f09e";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003429}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003429}}
 .icon-hdd:before {
   content: "\f0a0";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003430}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003430}}
 .icon-bullhorn:before {
   content: "\f0a1";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003431}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003431}}
 .icon-bell:before {
   content: "\f0a2";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003432}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003432}}
 .icon-certificate:before {
   content: "\f0a3";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003433}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003433}}
 .icon-hand-right:before {
   content: "\f0a4";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003434}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003434}}
 .icon-hand-left:before {
   content: "\f0a5";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003435}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003435}}
 .icon-hand-up:before {
   content: "\f0a6";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003436}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003436}}
 .icon-hand-down:before {
   content: "\f0a7";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003437}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003437}}
 .icon-circle-arrow-left:before {
   content: "\f0a8";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003438}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003438}}
 .icon-circle-arrow-right:before {
   content: "\f0a9";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003439}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003439}}
 .icon-circle-arrow-up:before {
   content: "\f0aa";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003440}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003440}}
 .icon-circle-arrow-down:before {
   content: "\f0ab";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003441}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003441}}
 .icon-globe:before {
   content: "\f0ac";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003442}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003442}}
 .icon-wrench:before {
   content: "\f0ad";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003443}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003443}}
 .icon-tasks:before {
   content: "\f0ae";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003445}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003445}}
 .icon-filter:before {
   content: "\f0b0";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003446}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003446}}
 .icon-briefcase:before {
   content: "\f0b1";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003447}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003447}}
 .icon-fullscreen:before {
   content: "\f0b2";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003449}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003449}}
 .icon-group:before {
   content: "\f0c0";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003450}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003450}}
 .icon-link:before {
   content: "\f0c1";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003451}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003451}}
 .icon-cloud:before {
   content: "\f0c2";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003452}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003452}}
 .icon-beaker:before {
   content: "\f0c3";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003453}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003453}}
 .icon-cut:before {
   content: "\f0c4";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003454}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003454}}
 .icon-copy:before {
   content: "\f0c5";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003455}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003455}}
 .icon-paper-clip:before {
   content: "\f0c6";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003456}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003456}}
 .icon-save:before {
   content: "\f0c7";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003457}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003457}}
 .icon-sign-blank:before {
   content: "\f0c8";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003458}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003458}}
 .icon-reorder:before {
   content: "\f0c9";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003459}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003459}}
 .icon-list-ul:before {
   content: "\f0ca";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003460}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003460}}
 .icon-list-ol:before {
   content: "\f0cb";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003461}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003461}}
 .icon-strikethrough:before {
   content: "\f0cc";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003462}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003462}}
 .icon-underline:before {
   content: "\f0cd";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003463}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003463}}
 .icon-table:before {
   content: "\f0ce";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003465}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003465}}
 .icon-magic:before {
   content: "\f0d0";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003466}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003466}}
 .icon-truck:before {
   content: "\f0d1";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003467}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003467}}
 .icon-pinterest:before {
   content: "\f0d2";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003468}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003468}}
 .icon-pinterest-sign:before {
   content: "\f0d3";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003469}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003469}}
 .icon-google-plus-sign:before {
   content: "\f0d4";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003470}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003470}}
 .icon-google-plus:before {
   content: "\f0d5";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003471}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003471}}
 .icon-money:before {
   content: "\f0d6";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003472}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003472}}
 .icon-caret-down:before {
   content: "\f0d7";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003473}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003473}}
 .icon-caret-up:before {
   content: "\f0d8";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003474}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003474}}
 .icon-caret-left:before {
   content: "\f0d9";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003475}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003475}}
 .icon-caret-right:before {
   content: "\f0da";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003476}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003476}}
 .icon-columns:before {
   content: "\f0db";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003477}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003477}}
 .icon-sort:before {
   content: "\f0dc";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003478}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003478}}
 .icon-sort-down:before {
   content: "\f0dd";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003479}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003479}}
 .icon-sort-up:before {
   content: "\f0de";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003481}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003481}}
 .icon-envelope-alt:before {
   content: "\f0e0";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003482}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003482}}
 .icon-linkedin:before {
   content: "\f0e1";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003483}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003483}}
 .icon-undo:before {
   content: "\f0e2";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003484}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003484}}
 .icon-legal:before {
   content: "\f0e3";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003485}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003485}}
 .icon-dashboard:before {
   content: "\f0e4";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003486}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003486}}
 .icon-comment-alt:before {
   content: "\f0e5";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003487}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003487}}
 .icon-comments-alt:before {
   content: "\f0e6";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003488}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003488}}
 .icon-bolt:before {
   content: "\f0e7";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003489}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003489}}
 .icon-sitemap:before {
   content: "\f0e8";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003490}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003490}}
 .icon-umbrella:before {
   content: "\f0e9";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003491}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003491}}
 .icon-paste:before {
   content: "\f0ea";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003492}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003492}}
 .icon-lightbulb:before {
   content: "\f0eb";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003493}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003493}}
 .icon-exchange:before {
   content: "\f0ec";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003494}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003494}}
 .icon-cloud-download:before {
   content: "\f0ed";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003495}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003495}}
 .icon-cloud-upload:before {
   content: "\f0ee";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003497}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003497}}
 .icon-user-md:before {
   content: "\f0f0";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003498}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003498}}
 .icon-stethoscope:before {
   content: "\f0f1";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003499}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003499}}
 .icon-suitcase:before {
   content: "\f0f2";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003500}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003500}}
 .icon-bell-alt:before {
   content: "\f0f3";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003501}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003501}}
 .icon-coffee:before {
   content: "\f0f4";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003502}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003502}}
 .icon-food:before {
   content: "\f0f5";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003503}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003503}}
 .icon-file-alt:before {
   content: "\f0f6";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003504}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003504}}
 .icon-building:before {
   content: "\f0f7";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003505}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003505}}
 .icon-hospital:before {
   content: "\f0f8";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003506}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003506}}
 .icon-ambulance:before {
   content: "\f0f9";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003507}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003507}}
 .icon-medkit:before {
   content: "\f0fa";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003508}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003508}}
 .icon-fighter-jet:before {
   content: "\f0fb";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003509}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003509}}
 .icon-beer:before {
   content: "\f0fc";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003510}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003510}}
 .icon-h-sign:before {
   content: "\f0fd";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003511}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003511}}
 .icon-plus-sign-alt:before {
   content: "\f0fe";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003513}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003513}}
 .icon-double-angle-left:before {
   content: "\f100";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003514}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003514}}
 .icon-double-angle-right:before {
   content: "\f101";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003515}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003515}}
 .icon-double-angle-up:before {
   content: "\f102";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003516}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003516}}
 .icon-double-angle-down:before {
   content: "\f103";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003517}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003517}}
 .icon-angle-left:before {
   content: "\f104";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003518}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003518}}
 .icon-angle-right:before {
   content: "\f105";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003519}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003519}}
 .icon-angle-up:before {
   content: "\f106";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003520}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003520}}
 .icon-angle-down:before {
   content: "\f107";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003521}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003521}}
 .icon-desktop:before {
   content: "\f108";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003522}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003522}}
 .icon-laptop:before {
   content: "\f109";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003523}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003523}}
 .icon-tablet:before {
   content: "\f10a";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003524}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003524}}
 .icon-mobile-phone:before {
   content: "\f10b";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003525}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003525}}
 .icon-circle-blank:before {
   content: "\f10c";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003526}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003526}}
 .icon-quote-left:before {
   content: "\f10d";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003527}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003527}}
 .icon-quote-right:before {
   content: "\f10e";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003529}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003529}}
 .icon-spinner:before {
   content: "\f110";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003530}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003530}}
 .icon-circle:before {
   content: "\f111";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003531}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003531}}
 .icon-reply:before {
   content: "\f112";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003532}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003532}}
 .icon-github-alt:before {
   content: "\f113";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003533}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003533}}
 .icon-folder-close-alt:before {
   content: "\f114";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003534}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_font-awesome\.scss}line{font-family:\00003534}}
 .icon-folder-open-alt:before {
   content: "\f115";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_defaults\.scss}line{font-family:\0000318}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_defaults\.scss}line{font-family:\0000318}}
 html, body {
   width: 100% !important;
   height: 100% !important;
@@ -1676,7 +1676,7 @@ html, body {
   -webkit-text-size-adjust: none;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_defaults\.scss}line{font-family:\0000325}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_defaults\.scss}line{font-family:\0000325}}
 *, *:after, *:before {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -1687,13 +1687,13 @@ html, body {
   -webkit-user-drag: none;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_defaults\.scss}line{font-family:\0000333}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_defaults\.scss}line{font-family:\0000333}}
 input, textarea {
   -webkit-user-select: text !important;
   user-select: text !important;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_defaults\.scss}line{font-family:\0000338}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_defaults\.scss}line{font-family:\0000338}}
 body {
   font-family: "MetaWeb-Normal", "Arial", "Helvetica", serif;
   vertical-align: sub;
@@ -1708,24 +1708,24 @@ body {
   font-smoothing: antialiased;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_defaults\.scss}line{font-family:\0000350}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_defaults\.scss}line{font-family:\0000350}}
 ::-webkit-scrollbar {
   width: 8px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_defaults\.scss}line{font-family:\0000354}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_defaults\.scss}line{font-family:\0000354}}
 ::-webkit-scrollbar-track {
   -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
   border-radius: 10px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/_defaults\.scss}line{font-family:\0000359}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/_defaults\.scss}line{font-family:\0000359}}
 ::-webkit-scrollbar-thumb {
   border-radius: 10px;
   -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/widgets\/_tabbar\.scss}line{font-family:\000031}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/widgets\/_tabbar\.scss}line{font-family:\000031}}
 .tab-bar {
   height: 60px;
   font-size: 14px;
@@ -1739,7 +1739,7 @@ body {
   box-orient: horizontal;
   border-top: 1px solid rgba(51, 51, 51, 0.5);
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/widgets\/_tabbar\.scss}line{font-family:\0000314}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/widgets\/_tabbar\.scss}line{font-family:\0000314}}
 .tab-bar .tab-button {
   min-width: 25%;
   overflow: hidden;
@@ -1771,19 +1771,19 @@ body {
   border-left: 1px solid rgba(51, 51, 51, 0.5);
   border-right: 1px solid rgba(230, 230, 230, 0.5);
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/widgets\/_tabbar\.scss}line{font-family:\0000330}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/widgets\/_tabbar\.scss}line{font-family:\0000330}}
 .tab-bar .tab-button .tab-icon {
   text-shadow: 0px 1px 0px #e6e4e4;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/widgets\/_tabbar\.scss}line{font-family:\0000334}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/widgets\/_tabbar\.scss}line{font-family:\0000334}}
 .tab-bar .tab-button .tab-title {
   font-size: .8em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/widgets\/_tabbar\.scss}line{font-family:\0000338}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/widgets\/_tabbar\.scss}line{font-family:\0000338}}
 .tab-bar .tab-button .tab-icon {
   font-size: 2em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/widgets\/_tabbar\.scss}line{font-family:\0000343}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/widgets\/_tabbar\.scss}line{font-family:\0000343}}
 .tab-bar .tab-button[data-role="network"] .tab-icon {
   -webkit-transform: rotate(-45deg);
   -moz-transform: rotate(-45deg);
@@ -1791,15 +1791,15 @@ body {
   -o-transform: rotate(-45deg);
   transform: rotate(-45deg);
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/widgets\/_tabbar\.scss}line{font-family:\0000347}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/widgets\/_tabbar\.scss}line{font-family:\0000347}}
 .tab-bar .tab-button:first-child {
   border-left: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/widgets\/_tabbar\.scss}line{font-family:\0000350}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/widgets\/_tabbar\.scss}line{font-family:\0000350}}
 .tab-bar .tab-button:last-child {
   border-right: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/widgets\/_tabbar\.scss}line{font-family:\0000354}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/widgets\/_tabbar\.scss}line{font-family:\0000354}}
 .tab-bar .tab-button.pressed {
   background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #aaaaaa), color-stop(100%, #d3d3d3));
   background-image: -webkit-linear-gradient(#aaaaaa, #d3d3d3);
@@ -1812,12 +1812,12 @@ body {
   border-right: none;
   border-left: 1px solid rgba(102, 102, 102, 0.5);
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/widgets\/_tabbar\.scss}line{font-family:\0000361}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/widgets\/_tabbar\.scss}line{font-family:\0000361}}
 .tab-bar .tab-button.disabled {
   color: #8c8c8c;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/widgets\/_msgbox\.scss}line{font-family:\000031}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/widgets\/_msgbox\.scss}line{font-family:\000031}}
 .ui-msg-box {
   background-color: whitesmoke;
   color: #005357;
@@ -1832,21 +1832,21 @@ body {
   min-height: 200px;
   max-height: 400px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/widgets\/_msgbox\.scss}line{font-family:\0000319}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/widgets\/_msgbox\.scss}line{font-family:\0000319}}
 .ui-msg-box .msg-box-title {
   padding: 0.5em;
   font-family: "MetaWeb-Medium";
   font-size: 140%;
   border-bottom: 1px solid #005357;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/widgets\/_msgbox\.scss}line{font-family:\0000327}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/widgets\/_msgbox\.scss}line{font-family:\0000327}}
 .ui-msg-box .msg-box-text {
   padding-top: 1.5em;
   padding-bottom: 1.5em;
   padding-left: 0.8em;
   padding-right: 0.8em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/widgets\/_msgbox\.scss}line{font-family:\0000334}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/widgets\/_msgbox\.scss}line{font-family:\0000334}}
 .ui-msg-box .msg-box-buttonbar {
   display: -webkit-box;
   display: -moz-box;
@@ -1866,19 +1866,19 @@ body {
   box-align: center;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/widgets\/_msgbox\.scss}line{font-family:\0000344}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/widgets\/_msgbox\.scss}line{font-family:\0000344}}
 .img-box {
   width: 80%;
   min-height: 200px;
   max-height: 400px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/widgets\/_msgbox\.scss}line{font-family:\0000349}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/widgets\/_msgbox\.scss}line{font-family:\0000349}}
 .img-box .img-box-image {
   border-radius: 4px;
   width: 100%;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/widgets\/_button\.scss}line{font-family:\000035}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/widgets\/_button\.scss}line{font-family:\000035}}
 .ui-button-bar {
   display: -webkit-box;
   display: -moz-box;
@@ -1900,17 +1900,17 @@ body {
   padding-bottom: 1em;
   font-size: 1.2em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/widgets\/_button\.scss}line{font-family:\0000316}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/widgets\/_button\.scss}line{font-family:\0000316}}
 .ui-button-bar .ui-button {
   margin-right: 0.8em;
   text-align: center;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/widgets\/_button\.scss}line{font-family:\0000321}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/widgets\/_button\.scss}line{font-family:\0000321}}
 .ui-button-bar .ui-button:last-child {
   margin-right: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/widgets\/_button\.scss}line{font-family:\0000359}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/widgets\/_button\.scss}line{font-family:\0000359}}
 .ui-button {
   display: -webkit-box;
   display: -moz-box;
@@ -1947,7 +1947,7 @@ body {
   min-width: 72px;
   min-height: 39.6px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/widgets\/_button\.scss}line{font-family:\0000376}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/widgets\/_button\.scss}line{font-family:\0000376}}
 .ui-button.button-pressed {
   background-color: #00474a;
   background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #00474a), color-stop(100%, #003b3e));
@@ -1956,7 +1956,7 @@ body {
   background-image: -o-linear-gradient(top, #00474a, #003b3e);
   background-image: linear-gradient(top, #00474a, #003b3e);
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/widgets\/_button\.scss}line{font-family:\0000380}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/widgets\/_button\.scss}line{font-family:\0000380}}
 .ui-button.button-disabled {
   background-color: #a3a3a3;
   background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #a3a3a3), color-stop(100%, #9c9c9c));
@@ -1966,26 +1966,26 @@ body {
   background-image: linear-gradient(top, #a3a3a3, #9c9c9c);
   border: 1px solid #8f8f8f;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/widgets\/_button\.scss}line{font-family:\0000384}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/widgets\/_button\.scss}line{font-family:\0000384}}
 .ui-button.button-invisible {
   visibility: hidden;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/widgets\/_button\.scss}line{font-family:\0000388}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/widgets\/_button\.scss}line{font-family:\0000388}}
 .ui-button .button-icon {
   min-width: 1.2em;
   margin-right: .2em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/widgets\/_button\.scss}line{font-family:\0000397}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/widgets\/_button\.scss}line{font-family:\0000397}}
 .ui-button .button-title span, .ui-button .button-icon span {
   vertical-align: sub;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/widgets\/_button\.scss}line{font-family:\00003103}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/widgets\/_button\.scss}line{font-family:\00003103}}
 .ui-list {
   border-radius: 4px;
   border: 1px solid darkgrey;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/widgets\/_button\.scss}line{font-family:\00003110}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/widgets\/_button\.scss}line{font-family:\00003110}}
 .ui-list .ui-list-button {
   padding: 1em;
   border-bottom: 1px solid darkgrey;
@@ -2015,7 +2015,7 @@ body {
   background-image: -o-linear-gradient(top, #006b71, #005357);
   background-image: linear-gradient(top, #006b71, #005357);
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/widgets\/_button\.scss}line{font-family:\00003119}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/widgets\/_button\.scss}line{font-family:\00003119}}
 .ui-list .ui-list-button.button-pressed {
   background-color: #00474a;
   background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #00474a), color-stop(100%, #003b3e));
@@ -2024,21 +2024,21 @@ body {
   background-image: -o-linear-gradient(top, #00474a, #003b3e);
   background-image: linear-gradient(top, #00474a, #003b3e);
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/widgets\/_button\.scss}line{font-family:\00003123}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/widgets\/_button\.scss}line{font-family:\00003123}}
 .ui-list .ui-list-button .button-icon {
   min-width: 1.2em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/widgets\/_button\.scss}line{font-family:\00003129}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/widgets\/_button\.scss}line{font-family:\00003129}}
 .ui-list .ui-list-button:last-child {
   border-bottom: none;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/widgets\/_button\.scss}line{font-family:\00003134}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/widgets\/_button\.scss}line{font-family:\00003134}}
 .ui-list {
   border-radius: 4px;
   border: 1px solid darkgrey;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/widgets\/_button\.scss}line{font-family:\00003141}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/widgets\/_button\.scss}line{font-family:\00003141}}
 .ui-list .ui-list-networkButton {
   background-color: #ffffff;
   padding: 1em;
@@ -2056,20 +2056,20 @@ body {
   -ms-box-align: left;
   box-align: left;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/widgets\/_button\.scss}line{font-family:\00003149}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/widgets\/_button\.scss}line{font-family:\00003149}}
 .ui-list .ui-list-networkButton.button-pressed {
   background-color: #005357;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/widgets\/_button\.scss}line{font-family:\00003153}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/widgets\/_button\.scss}line{font-family:\00003153}}
 .ui-list .ui-list-networkButton .button-icon {
   min-width: 1.2em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/widgets\/_button\.scss}line{font-family:\00003158}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/widgets\/_button\.scss}line{font-family:\00003158}}
 .ui-list .ui-list-networkButton .network-button-icon {
   min-width: 1.2em;
   text-align: left;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/widgets\/_button\.scss}line{font-family:\00003164}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/widgets\/_button\.scss}line{font-family:\00003164}}
 .ui-list .ui-list-networkButton .network-button-title {
   -webkit-box-flex: 1;
   -moz-box-flex: 1;
@@ -2077,11 +2077,11 @@ body {
   box-flex: 1;
   text-align: left;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/widgets\/_button\.scss}line{font-family:\00003170}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/widgets\/_button\.scss}line{font-family:\00003170}}
 .ui-list .ui-list-networkButton .network-button-icon span, .ui-list .ui-list-networkButton .network-button-title span {
   vertical-align: sub;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/widgets\/_button\.scss}line{font-family:\00003175}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/widgets\/_button\.scss}line{font-family:\00003175}}
 .ui-list .ui-list-networkButton .network-button-spinner {
   background-image: url('data:image/gif;base64,R0lGODlhPAA8AKUAAP////f39+/v7+bm5t7e3tbW1s7OzsXFxb29vbW1ta2traWlpZycnJSUlIyMjISEhHt7e3Nzc2tra2NjY1paWlJSUkpKSkJCQjo6OjExMSkpKSEhIRkZGRAQEAgICAAAAP///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////yH/C05FVFNDQVBFMi4wAwEAAAAh/hFDcmVhdGVkIHdpdGggR0lNUAAh+QQFBwACACwAAAAAPAA8AAAG/kCBcEgsGo+CwQDJbDqfx4NCcYBar9DCgsFYFLDg8BDB5SLE6KFyiUyUGQnmYZ5GDgp4QvsdPyogEA9VdUUFBocGe2V9hRKOgYSFiAZfRm6LRxCOjg+RRAOTBmxEl1yMQwmOE44KnkShiUWlcEYRmxIRrp+heqR8RQuqjqe6hpOyv2q3EhC6RqGVQrOnDsIS0c5CBKG+mEIGyw51a02wqMkCmquOo4UODgtMd4jtRNuTbNPS1vFHDhcYLkjoZ+QeogL1vnETwmaUrU25jCywkCEDhoDNjhichI0hol7yGKw7QwQBBQwVK2JkYgwWSCF4rhR40EkZypQqLXSUBOtQ/kIsoxpcwJkSA4VYTeb13AlGQYWbODFYIAgF1NI6FIhWvCBOzMZDhAYMLSrhpZiWP8EwUFmBZCSrri5YYJDNWYK0dfPqDbOgr9+/fRMgVdrzoLMNHhIrXpxYQyfChQ8xTXPhg+XLmD946JBhAeTIk9FUzpx5c2cBLSNTcjaa9OXNF/oQSH1V1wYOuHPr5rDBArG9wIPXNZuGAF40xlxJdrWReJjm43pG6nmcZeHQWa5j+TrJORjuhp1Yrc0wTDvwh7wn0V7EpxW4PGGlBZ9w4/HxBojj/4jkq3doDK2hBEwLFcSReveERtsQ0CkU3hGGFKCeFbww2J2FxwBnDobpVL1SYF37vdSgNhXmtSGH+bX3oS5fGcifii86A2ARIw6xoDMtutjhMxcW0yONP9rDkTN4INJfkB5Sgt1ZMR0ZoxF4LJlXjcK9h0+VYRgjJZYaTShGEAAh+QQFBwAgACwAAAAAPAA8AAAG/kCQcEgsGo+gQACAbDqfUONgKoha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');
   margin-right: 0.2em;
@@ -2091,23 +2091,23 @@ body {
   min-width: 1.2em;
   visibility: hidden;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/widgets\/_button\.scss}line{font-family:\00003185}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/widgets\/_button\.scss}line{font-family:\00003185}}
 .ui-list .ui-list-networkButton .network-button-spinner-show {
   visibility: visible;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/widgets\/_button\.scss}line{font-family:\00003190}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/widgets\/_button\.scss}line{font-family:\00003190}}
 .ui-list .ui-list-networkButton:first-child {
   border-top-left-radius: 4px;
   border-top-right-radius: 4px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/widgets\/_button\.scss}line{font-family:\00003195}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/widgets\/_button\.scss}line{font-family:\00003195}}
 .ui-list .ui-list-networkButton:last-child {
   border-bottom: none;
   border-bottom-left-radius: 4px;
   border-bottom-right-radius: 4px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/widgets\/_searchbox\.scss}line{font-family:\000036}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/widgets\/_searchbox\.scss}line{font-family:\000036}}
 .ui-search-box .ui-search-box-inner {
   display: -webkit-box;
   display: -moz-box;
@@ -2129,7 +2129,7 @@ body {
   border-top-left-radius: 4px;
   height: 40px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/widgets\/_searchbox\.scss}line{font-family:\0000320}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/widgets\/_searchbox\.scss}line{font-family:\0000320}}
 .ui-search-box .ui-search-box-inner input.search-field {
   -webkit-box-flex: 1;
   -moz-box-flex: 1;
@@ -2144,11 +2144,11 @@ body {
   background-color: lightgrey;
   width: 100%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/widgets\/_searchbox\.scss}line{font-family:\0000334}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/widgets\/_searchbox\.scss}line{font-family:\0000334}}
 .ui-search-box .ui-search-box-inner input::-webkit-input-placeholder {
   color: #778899;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/widgets\/_searchbox\.scss}line{font-family:\0000339}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/widgets\/_searchbox\.scss}line{font-family:\0000339}}
 .ui-search-box .ui-search-button {
   -webkit-box-shadow: #003b3e 0px 1px 0px;
   -moz-box-shadow: #003b3e 0px 1px 0px;
@@ -2157,14 +2157,14 @@ body {
   border-top-left-radius: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/widgets\/_overlay\.scss}line{font-family:\000031}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/widgets\/_overlay\.scss}line{font-family:\000031}}
 .ui-overlay {
   z-index: 50;
   position: relative;
   width: 100%;
   height: 100%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/widgets\/_overlay\.scss}line{font-family:\000039}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/widgets\/_overlay\.scss}line{font-family:\000039}}
 .ui-overlay .ui-inner {
   background-color: rgba(0, 0, 0, 0.7);
   opacity: 0;
@@ -2173,31 +2173,31 @@ body {
   height: 100%;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/widgets\/_list\.scss}line{font-family:\000031}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/widgets\/_list\.scss}line{font-family:\000031}}
 .ui-item-list {
   background-color: whitesmoke;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/widgets\/_list\.scss}line{font-family:\000035}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/widgets\/_list\.scss}line{font-family:\000035}}
 .ui-item-list .ui-list-item {
   padding: 0.4em 0.8em;
   border-bottom: 1px solid lightsteelblue;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/widgets\/_list\.scss}line{font-family:\000039}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/widgets\/_list\.scss}line{font-family:\000039}}
 .ui-item-list .ui-list-item:last-child {
   border-bottom: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/widgets\/_list\.scss}line{font-family:\0000317}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/widgets\/_list\.scss}line{font-family:\0000317}}
 .ui-item-list .ui-list-item .ui-list-item-sub-title {
   color: #adadad;
   font-size: .8em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/widgets\/_list\.scss}line{font-family:\0000323}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/widgets\/_list\.scss}line{font-family:\0000323}}
 .ui-item-list .ui-list-scroll-content {
   width: 100%;
   height: 100%;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/widgets\/_scrollcontainer\.scss}line{font-family:\000031}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/widgets\/_scrollcontainer\.scss}line{font-family:\000031}}
 .ui-scroller-container {
   display: -webkit-box;
   display: -moz-box;
@@ -2212,7 +2212,7 @@ body {
   -ms-box-flex: 1;
   box-flex: 1;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/widgets\/_scrollcontainer\.scss}line{font-family:\000036}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/widgets\/_scrollcontainer\.scss}line{font-family:\000036}}
 .ui-scroller-container .ui-scroller {
   -webkit-box-flex: 1;
   -moz-box-flex: 1;
@@ -2220,7 +2220,7 @@ body {
   box-flex: 1;
   position: relative;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/widgets\/_scrollcontainer\.scss}line{font-family:\0000312}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/widgets\/_scrollcontainer\.scss}line{font-family:\0000312}}
 .ui-scroller-container .ui-scroller .ui-scroller-inner {
   position: absolute;
   -webkit-overflow-scrolling: touch;
@@ -2229,7 +2229,26 @@ body {
   width: 100%;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/layouts\/_box\.scss}line{font-family:\000031}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/widgets\/_header\.scss}line{font-family:\000031}}
+.ui-header {
+  height: 45px;
+  line-height: 45px;
+  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #fe96c9), color-stop(5%, #d51875), color-stop(100%, #7b0a2e));
+  background: -webkit-linear-gradient(top, #fe96c9, #d51875 5%, #7b0a2e);
+  background: -moz-linear-gradient(top, #fe96c9, #d51875 5%, #7b0a2e);
+  background: -o-linear-gradient(top, #fe96c9, #d51875 5%, #7b0a2e);
+  background: linear-gradient(top, #fe96c9, #d51875 5%, #7b0a2e);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/widgets\/_header\.scss}line{font-family:\000038}}
+.ui-header .ui-header-title {
+  color: #eee;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.5);
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/layouts\/_box\.scss}line{font-family:\000031}}
 .hbox {
   display: -webkit-box;
   display: -moz-box;
@@ -2241,7 +2260,7 @@ body {
   box-orient: horizontal;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/layouts\/_box\.scss}line{font-family:\000035}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/layouts\/_box\.scss}line{font-family:\000035}}
 .vbox {
   display: -webkit-box;
   display: -moz-box;
@@ -2253,7 +2272,7 @@ body {
   box-orient: vertical;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/layouts\/_box\.scss}line{font-family:\000039}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/layouts\/_box\.scss}line{font-family:\000039}}
 .box-flex {
   -webkit-box-flex: 1;
   -moz-box-flex: 1;
@@ -2261,7 +2280,7 @@ body {
   box-flex: 1;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/layouts\/_box\.scss}line{font-family:\0000313}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/layouts\/_box\.scss}line{font-family:\0000313}}
 .box-align-start {
   -webkit-box-align: start;
   -moz-box-align: start;
@@ -2269,7 +2288,7 @@ body {
   box-align: start;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/layouts\/_box\.scss}line{font-family:\0000317}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/layouts\/_box\.scss}line{font-family:\0000317}}
 .box-align-center {
   -webkit-box-align: center;
   -moz-box-align: center;
@@ -2277,7 +2296,7 @@ body {
   box-align: center;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/layouts\/_box\.scss}line{font-family:\0000321}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/layouts\/_box\.scss}line{font-family:\0000321}}
 .box-align-end {
   -webkit-box-align: end;
   -moz-box-align: end;
@@ -2285,7 +2304,7 @@ body {
   box-align: end;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/layouts\/_box\.scss}line{font-family:\0000325}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/layouts\/_box\.scss}line{font-family:\0000325}}
 .box-align-stretch {
   -webkit-box-align: stretch;
   -moz-box-align: stretch;
@@ -2293,7 +2312,7 @@ body {
   box-align: stretch;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/layouts\/_box\.scss}line{font-family:\0000329}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/layouts\/_box\.scss}line{font-family:\0000329}}
 .box-align-baseline {
   -webkit-box-align: baseline;
   -moz-box-align: baseline;
@@ -2301,7 +2320,7 @@ body {
   box-align: baseline;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/layouts\/_box\.scss}line{font-family:\0000333}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/layouts\/_box\.scss}line{font-family:\0000333}}
 .box-pack-start {
   -webkit-box-pack: start;
   -moz-box-pack: start;
@@ -2309,7 +2328,7 @@ body {
   box-pack: start;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/layouts\/_box\.scss}line{font-family:\0000337}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/layouts\/_box\.scss}line{font-family:\0000337}}
 .box-pack-center {
   -webkit-box-pack: center;
   -moz-box-pack: center;
@@ -2317,7 +2336,7 @@ body {
   box-pack: center;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/layouts\/_box\.scss}line{font-family:\0000341}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/layouts\/_box\.scss}line{font-family:\0000341}}
 .box-pack-end {
   -webkit-box-pack: end;
   -moz-box-pack: end;
@@ -2325,7 +2344,7 @@ body {
   box-pack: end;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/layouts\/_box\.scss}line{font-family:\0000345}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/layouts\/_box\.scss}line{font-family:\0000345}}
 .box-pack-justify {
   -webkit-box-pack: justify;
   -moz-box-pack: justify;
@@ -2333,17 +2352,17 @@ body {
   box-pack: justify;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/layouts\/_box\.scss}line{font-family:\0000349}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/layouts\/_box\.scss}line{font-family:\0000349}}
 .text-align-right {
   text-align: right;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/layouts\/_box\.scss}line{font-family:\0000353}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/layouts\/_box\.scss}line{font-family:\0000353}}
 .text-align-left {
   text-align: left;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/layouts\/_layout\.scss}line{font-family:\000031}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/layouts\/_layout\.scss}line{font-family:\000031}}
 .x-layout-card-item, .x-layout-card-container {
   width: 100%;
   height: 100%;
@@ -2351,7 +2370,7 @@ body {
   top: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/layouts\/_layout\.scss}line{font-family:\000039}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/layouts\/_layout\.scss}line{font-family:\000039}}
 .x-layout-card-item {
   position: absolute !important;
   top: 0;
@@ -2360,7 +2379,7 @@ body {
   left: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/layouts\/_layout\.scss}line{font-family:\0000317}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/layouts\/_layout\.scss}line{font-family:\0000317}}
 .x-container, .x-body {
   display: -webkit-box;
   display: -moz-box;
@@ -2370,7 +2389,7 @@ body {
   height: 100%;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/layouts\/_layout\.scss}line{font-family:\0000323}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/layouts\/_layout\.scss}line{font-family:\0000323}}
 .x-body {
   overflow: hidden;
   -webkit-box-flex: 1;
@@ -2381,7 +2400,7 @@ body {
   min-height: 100%;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/layouts\/_layout\.scss}line{font-family:\0000330}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/layouts\/_layout\.scss}line{font-family:\0000330}}
 .x-body > .x-inner, .x-container > .x-inner {
   -webkit-box-flex: 1;
   -moz-box-flex: 1;
@@ -2392,7 +2411,7 @@ body {
   position: relative;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/layouts\/_layout\.scss}line{font-family:\0000337}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/layouts\/_layout\.scss}line{font-family:\0000337}}
 .x-centered {
   position: absolute !important;
   width: 100%;
@@ -2411,12 +2430,12 @@ body {
   box-pack: center;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/layouts\/_layout\.scss}line{font-family:\0000346}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/layouts\/_layout\.scss}line{font-family:\0000346}}
 .x-floating {
   position: absolute !important;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/layouts\/_layout\.scss}line{font-family:\0000350}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/layouts\/_layout\.scss}line{font-family:\0000350}}
 .x-centered > * {
   position: relative !important;
   -webkit-box-flex: 0;
@@ -2425,28 +2444,28 @@ body {
   box-flex: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/views\/_main\.scss}line{font-family:\000031}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/views\/_main\.scss}line{font-family:\000031}}
 .main-view {
   width: 100%;
   height: 100%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/views\/_main\.scss}line{font-family:\000036}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/views\/_main\.scss}line{font-family:\000036}}
 .main-view .content {
   position: relative;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/views\/_main\.scss}line{font-family:\000039}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/views\/_main\.scss}line{font-family:\000039}}
 .main-view .content .content-view {
   background-color: whitesmoke;
   position: absolute;
   width: 100%;
   height: 100%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/views\/_main\.scss}line{font-family:\0000317}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/views\/_main\.scss}line{font-family:\0000317}}
 .main-view .footer {
   background: #fffafa;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/views\/_home\.scss}line{font-family:\000031}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/views\/_home\.scss}line{font-family:\000031}}
 .home-view {
   -webkit-box-flex: 1;
   -moz-box-flex: 1;
@@ -2471,14 +2490,14 @@ body {
   -ms-box-align: center;
   box-align: center;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/views\/_home\.scss}line{font-family:\0000310}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/views\/_home\.scss}line{font-family:\0000310}}
 .home-view .header {
   margin-top: 1em;
   margin-bottom: 1em;
   width: 100%;
   height: 20%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/views\/_home\.scss}line{font-family:\0000319}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/views\/_home\.scss}line{font-family:\0000319}}
 .home-view .main-content {
   -webkit-box-flex: 1;
   -moz-box-flex: 1;
@@ -2498,40 +2517,40 @@ body {
   margin-right: 10%;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/views\/_wizard\.scss}line{font-family:\000033}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/views\/_wizard\.scss}line{font-family:\000033}}
 .wizard .wizard-header {
   font-size: 2em;
   text-align: center;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/views\/_form\.scss}line{font-family:\000031}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/views\/_form\.scss}line{font-family:\000031}}
 input.parsley-success, textarea.parsley-success {
   color: #468847 !important;
   background-color: #dff0d8 !important;
   border: 1px solid #d6e9c6 !important;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/views\/_form\.scss}line{font-family:\000036}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/views\/_form\.scss}line{font-family:\000036}}
 input.parsley-error, textarea.parsley-error {
   color: #b94a48 !important;
   background-color: #f2dede !important;
   border: 1px solid #eed3d7 !important;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/views\/_form\.scss}line{font-family:\0000311}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/views\/_form\.scss}line{font-family:\0000311}}
 input {
   width: 150px;
   margin: 0 2px !important;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/views\/_form\.scss}line{font-family:\0000315}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/views\/_form\.scss}line{font-family:\0000315}}
 ul.parsley-error-list {
   font-size: 11px;
   margin: 2px;
   list-style-type: none;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/imtf\/siron-onboarding-mobile-app\/src\/resources\/sass\/views\/_form\.scss}line{font-family:\0000320}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/views\/_form\.scss}line{font-family:\0000320}}
 ul.parsley-error-list li {
   line-height: 11px;
 }

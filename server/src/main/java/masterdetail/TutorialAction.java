@@ -42,8 +42,8 @@ public class TutorialAction extends DolphinServerAction {
             public void handleCommand(Command command, List<Command> response) {
                 try {
                     System.err.println(" <<< "+TutorialAction.this);
-//                    System.err.println(" <<< VQ "+System.identityHashCode(valueQueue));
-//                    System.err.println(" <<< EB "+System.identityHashCode(eventBus));
+                    System.err.println(" <<< VQ "+System.identityHashCode(valueQueue));
+                    System.err.println(" <<< EB "+System.identityHashCode(eventBus));
                     final DTO dto = valueQueue.getVal(60, TimeUnit.SECONDS);
 
                     System.err.println(" <<< reading dto");
@@ -84,9 +84,9 @@ public class TutorialAction extends DolphinServerAction {
             @Override
             public void handleCommand(Command command, List<Command> response) {
                 System.err.println(">>> "+TutorialAction.this);
-//                System.err.println(">>> VQ "+System.identityHashCode(valueQueue));
-//                System.err.println(">>> EB "+System.identityHashCode(eventBus));
-//                System.err.println(">>> "+command);
+                System.err.println(">>> VQ "+System.identityHashCode(valueQueue));
+                System.err.println(">>> EB "+System.identityHashCode(eventBus));
+                System.err.println(">>> "+command);
 
                 final ServerPresentationModel presentationModel = getServerDolphin().getAt("weatherMold");
                 if (presentationModel != null) {
@@ -120,9 +120,9 @@ public class TutorialAction extends DolphinServerAction {
             @Override
             public void handleCommand(Command command, List<Command> response) {
                 System.err.println(">>> "+TutorialAction.this);
-//                System.err.println(">>> VQ "+System.identityHashCode(valueQueue));
-//                System.err.println(">>> EB "+System.identityHashCode(eventBus));
-//                System.err.println(">>> "+command);
+                System.err.println(">>> VQ "+System.identityHashCode(valueQueue));
+                System.err.println(">>> EB "+System.identityHashCode(eventBus));
+                System.err.println(">>> "+command);
                 count++;
                 final DTO dto = new DTO(
                         new Slot("location", "unknown", "weather." + count + ".location"),

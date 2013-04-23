@@ -3,7 +3,7 @@ require.config({
     baseUrl: '',
 
     paths: {
-        jquery : 'libs/jquery'
+        jquery : '../scripts/jquery'
     },
 
     shim: {
