@@ -1,3 +1,3 @@
 define({
-    serverUrl: "http://localhost:8080/dolphinServer/tutorial/"
+    serverUrl: "/dolphinServer/tutorial/"
 });

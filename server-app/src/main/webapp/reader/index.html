@@ -44,10 +44,8 @@
                 'comm/EmptyNotification'
             ], function (Dolphin, ClientAttribute, EmptyNotification) {
 
-                var dolphin = new Dolphin({
-                    serverUrl: "http://localhost:8080/dolphinServer/tutorial/",
-                    clearSession: true
-                });
+                var url = window.location.protocol + '//' + window.location.host + "/dolphinServer/tutorial/";
+                var dolphin = new Dolphin({ serverUrl: url, clearSession: true });
 
                 dolphin.getClientDolphin().sendEmpty(function() {
 
