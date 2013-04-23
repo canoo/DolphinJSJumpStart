@@ -17,7 +17,7 @@ helpers = helpers || Handlebars.helpers; data = data || {};
   
 
 
-  return "<div class=\"list-header\"></div>\n<div class=\"list-content box-flex\"></div>\n<div class=\"list-footer\"></div>\n";
+  return "<div class=\"list-header\"></div>\n<div class=\"list-content vbox box-flex\"></div>\n<div class=\"list-footer\"></div>\n";
   };
 
 this["JST"]["app/templates/views/weather-list-item.html"] = function (Handlebars,depth0,helpers,partials,data) {
@@ -26,7 +26,7 @@ helpers = helpers || Handlebars.helpers; data = data || {};
   var buffer = "", stack1, functionType="function", escapeExpression=this.escapeExpression;
 
 
-  buffer += "<div class=\"ui-list-item-title\">";
+  buffer += "<div class=\"ui-list-item-title box-flex\">";
   if (stack1 = helpers.location) { stack1 = stack1.call(depth0, {hash:{},data:data}); }
   else { stack1 = depth0.location; stack1 = typeof stack1 === functionType ? stack1.apply(depth0) : stack1; }
   buffer += escapeExpression(stack1)
@@ -34,7 +34,7 @@ helpers = helpers || Handlebars.helpers; data = data || {};
   if (stack1 = helpers.temperature) { stack1 = stack1.call(depth0, {hash:{},data:data}); }
   else { stack1 = depth0.temperature; stack1 = typeof stack1 === functionType ? stack1.apply(depth0) : stack1; }
   buffer += escapeExpression(stack1)
-    + "</div>\n";
+    + "&deg;</div>\n";
   return buffer;
   };
 

@@ -35,7 +35,12 @@ define([
 
                     // init Dolphin
 
-                    var url = window.location.protocol + '//' + window.location.host + Properties.serverUrl;
+                    var protocol = window.location.protocol === 'file:' ? 'http:' : window.location.protocol;
+                    var host = (window.location.host === '') ? 'localhost:8080' : window.location.host;
+                    var url = protocol + '//' + host + Properties.serverUrl;
+                    console.log("Connecting to url: " + url);
+                    console.log("Connecting to host: " + window.location.host);
+
 
                     var dolphin = new Dolphin({ serverUrl: url, clearSession: true });
 

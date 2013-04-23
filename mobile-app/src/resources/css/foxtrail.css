@@ -2174,24 +2174,29 @@ body {
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/widgets\/_list\.scss}line{font-family:\000031}}
+.ui-list-view {
+  height: 100%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/widgets\/_list\.scss}line{font-family:\000035}}
 .ui-item-list {
   background-color: whitesmoke;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/widgets\/_list\.scss}line{font-family:\000035}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/widgets\/_list\.scss}line{font-family:\000039}}
 .ui-item-list .ui-list-item {
   padding: 0.4em 0.8em;
   border-bottom: 1px solid lightsteelblue;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/widgets\/_list\.scss}line{font-family:\000039}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/widgets\/_list\.scss}line{font-family:\0000313}}
 .ui-item-list .ui-list-item:last-child {
   border-bottom: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/widgets\/_list\.scss}line{font-family:\0000317}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/widgets\/_list\.scss}line{font-family:\0000321}}
 .ui-item-list .ui-list-item .ui-list-item-sub-title {
   color: #adadad;
   font-size: .8em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/widgets\/_list\.scss}line{font-family:\0000323}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/widgets\/_list\.scss}line{font-family:\0000327}}
 .ui-item-list .ui-list-scroll-content {
   width: 100%;
   height: 100%;
@@ -2465,92 +2470,13 @@ body {
   background: #fffafa;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/views\/_home\.scss}line{font-family:\000031}}
-.home-view {
-  -webkit-box-flex: 1;
-  -moz-box-flex: 1;
-  -ms-box-flex: 1;
-  box-flex: 1;
-  width: 100%;
-  height: 100%;
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-box;
-  display: box;
-  -webkit-box-orient: vertical;
-  -moz-box-orient: vertical;
-  -ms-box-orient: vertical;
-  box-orient: vertical;
-  -webkit-box-pack: stretch;
-  -moz-box-pack: stretch;
-  -ms-box-pack: stretch;
-  box-pack: stretch;
-  -webkit-box-align: center;
-  -moz-box-align: center;
-  -ms-box-align: center;
-  box-align: center;
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/views\/_weatherlist\.scss}line{font-family:\000031}}
+.weather-list-item {
+  padding: 0.8em 1.2em;
+  border-bottom: 1px solid #8d9aa6;
+  font-size: 1.5em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/views\/_home\.scss}line{font-family:\0000310}}
-.home-view .header {
-  margin-top: 1em;
-  margin-bottom: 1em;
-  width: 100%;
-  height: 20%;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/views\/_home\.scss}line{font-family:\0000319}}
-.home-view .main-content {
-  -webkit-box-flex: 1;
-  -moz-box-flex: 1;
-  -ms-box-flex: 1;
-  box-flex: 1;
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-box;
-  display: box;
-  -webkit-box-orient: vertical;
-  -moz-box-orient: vertical;
-  -ms-box-orient: vertical;
-  box-orient: vertical;
-  overflow: hidden;
-  width: 80%;
-  margin-left: 10%;
-  margin-right: 10%;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/views\/_wizard\.scss}line{font-family:\000033}}
-.wizard .wizard-header {
-  font-size: 2em;
-  text-align: center;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/views\/_form\.scss}line{font-family:\000031}}
-input.parsley-success, textarea.parsley-success {
-  color: #468847 !important;
-  background-color: #dff0d8 !important;
-  border: 1px solid #d6e9c6 !important;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/views\/_form\.scss}line{font-family:\000036}}
-input.parsley-error, textarea.parsley-error {
-  color: #b94a48 !important;
-  background-color: #f2dede !important;
-  border: 1px solid #eed3d7 !important;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/views\/_form\.scss}line{font-family:\0000311}}
-input {
-  width: 150px;
-  margin: 0 2px !important;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/views\/_form\.scss}line{font-family:\0000315}}
-ul.parsley-error-list {
-  font-size: 11px;
-  margin: 2px;
-  list-style-type: none;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/views\/_form\.scss}line{font-family:\0000320}}
-ul.parsley-error-list li {
-  line-height: 11px;
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oleg\/workspace\/flipper\/DolphinJSJumpStart\/mobile-app\/src\/resources\/sass\/views\/_weatherlist\.scss}line{font-family:\0000316}}
+.weather-list-item span.title {
+  color: #778899;
 }

@@ -8,7 +8,7 @@ define([
     'backbone.layoutmanager'], function ($, _, Backbone, iScroll, Hammertime, ListItem) {
 
     var ListContent = Backbone.Layout.extend({
-        className: 'ui-list-scroll-content',
+        className: 'ui-list-scroll-content box-flex',
 
         initialize: function(options) {
             this.listItem = options.listItem;

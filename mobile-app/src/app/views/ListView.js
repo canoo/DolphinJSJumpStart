@@ -15,7 +15,7 @@ define([
     return Backbone.Layout.extend({
 
         template : 'views/list-view',
-        className: 'list-view vbox',
+        className: 'ui-list-view vbox',
 
         initialize: function(options) {
             this.dolphin = options.dolphin;
