@@ -15,6 +15,31 @@ Prerequisite: Java 7 or above.
 
     ./gradlew :server-app:jettyRun
 
+In order to view the Dolphin.JS samples you have to open at least two separate browsers of your choice. e.g. Chrome and Firefox.
+It is required that one browser acts as a editor. Use one of the browsers to go to the following URL:
+
+    http://localhost:8080/dolphinServer/editor/
+
+The other browser can act as a viewer of the data. Use the other browser and go to the following URL:
+
+    http://localhost:8080/dolphinServer/reader/
+
+Now you can use the editor to add and then edit some weather records. When you do this watch the reader application in the other browser.
+
+##Running the mobile sample##
+
+You can use your smart phone to view the mobile client application. To do so it is important that all browsers are connected with exactly the same host with the Dolphin server. Figure out the IP address of your Dolphin server and use it in the URL to start the editor and reader applications in your desktop browsers:
+
+    http://[dolphin-server-ip]:8080/dolphinServer/editor/
+
+    http://[dolphin-server-ip]:8080/dolphinServer/reader/
+
+Now take your smart phone and navigate to the following URL:
+
+    http://[dolphin-server-ip]:8080/dolphinServer/mobile/
+
+Add and edit some of the weather records and watch the reader clients.
+
 ##More Info##
 
 This has only been a first glance into the way that OpenDolphin operates.
